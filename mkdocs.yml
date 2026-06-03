@@ -200,12 +200,6 @@ nav:
         - "Plastics Equipment WISH LIST": plastics/plastics-equipment-wish-list.md
         - "Plastics Specific Equipment": plastics/plastics-specific-equipment.md
         - "Vacuum Former": plastics/vacuum-former.md
-      - "Small Metals":
-        - "2023":
-          - "Jewelry Committee Meeting 20230110": small-metals/jewelry-committee-meeting-20230110.md
-        - "2022":
-          - "Jewelry Committee Meeting 20220412": small-metals/jewelry-committee-meeting-20220412.md
-          - "Jewelry Committee Meeting 20221101": small-metals/jewelry-committee-meeting-20221101.md
       - "Wood Shop":
         - "Authorized Tool Users": wood-shop/authorized-tool-users.md
         - "Dust Collection System": wood-shop/dust-collection-system.md
@@ -217,8 +211,9 @@ nav:
         - "Woodshop Basics": wood-shop/woodshop-basics.md
         - "Woodshop Lathe Basics": wood-shop/woodshop-lathe-basics.md
         - "WoodshopDustManagementSystem": wood-shop/woodshopdustmanagementsystem.md
-      - "Woodshop":
-        - "Woodshop Committee Meeting 20191102": woodshop/woodshop-committee-meeting-20191102.md
+        - "Meeting Minutes":
+          - "2019":
+            - "Woodshop Committee Meeting 20191102": woodshop/woodshop-committee-meeting-20191102.md
     - "Arts & Crafts":
       - "Blacksmithing":
         - "KMG-10": blacksmithing/kmg-10.md
@@ -296,15 +291,17 @@ nav:
           - "2018":
             - "GlassWorks 20180608": glassworks/glassworks-20180608.md
             - "GlassWorks 20180907": glassworks/glassworks-20180907.md
-      - "Jewelry":
-        - "Jewelry Committee Meeting 20220208": jewelry/jewelry-committee-meeting-20220208.md
-        - "Jewelry Committee Meeting 20220913": jewelry/jewelry-committee-meeting-20220913.md
-        - "Jewelry Committee Meeting 20221213": jewelry/jewelry-committee-meeting-20221213.md
       - "Jewelry/Small Metals Committee":
         - "2023":
+          - "Jewelry Committee Meeting 20230110": small-metals/jewelry-committee-meeting-20230110.md
           - "Jewelry Committee Meeting 20230213": jewelry-small-metals-committee/jewelry-committee-meeting-20230213.md
         - "2022":
+          - "Jewelry Committee Meeting 20220208": jewelry/jewelry-committee-meeting-20220208.md
           - "Jewelry Committee Meeting 20220308": jewelry-small-metals-committee/jewelry-committee-meeting-20220308.md
+          - "Jewelry Committee Meeting 20220412": small-metals/jewelry-committee-meeting-20220412.md
+          - "Jewelry Committee Meeting 20220913": jewelry/jewelry-committee-meeting-20220913.md
+          - "Jewelry Committee Meeting 20221101": small-metals/jewelry-committee-meeting-20221101.md
+          - "Jewelry Committee Meeting 20221213": jewelry/jewelry-committee-meeting-20221213.md
         - "2021":
           - "Jewelry Committee Meeting 20210309": jewelry-small-metals-committee/jewelry-committee-meeting-20210309.md
           - "Jewelry Committee Meeting 20210511": jewelry-small-metals-committee/jewelry-committee-meeting-20210511.md
@@ -501,12 +498,11 @@ nav:
       - "Programming":
         - "NodeJS": programming/nodejs.md
         - "Python 101": programming/python-101.md
-      - "Software":
+      - "Software Development":
         - "Coding and Coffee Workshops": software/coding-and-coffee-workshops.md
         - "Coding Challenges": software/coding-challenges.md
-        - "Javascript Introduction": software/javascript-introduction.md
-      - "Software Development":
         - "Gitlab server": software-development/gitlab-server.md
+        - "Javascript Introduction": software/javascript-introduction.md
         - "Meeting Minutes":
           - "2019":
             - "Software Development Meeting 20190526": software-development/software-development-meeting-20190526.md
@@ -515,11 +511,10 @@ nav:
       - "VCC":
         - "40-node Raspberry Pi Cluster": vcc/40-node-raspberry-pi-cluster.md
         - "Maker.coin": vcc/maker-coin.md
+        - "Tensorflow": vcc-inventory/tensorflow.md
         - "Meeting Minutes":
           - "2019":
             - "Computer Committee Meeting 20190919": vcc/computer-committee-meeting-20190919.md
-      - "VCC Inventory":
-        - "Tensorflow": vcc-inventory/tensorflow.md
     - "Vehicles & Aerospace":
       - "Aerospace":
         - "Chesley's Certification Rocket": aerospace/chesley-s-certification-rocket.md
@@ -612,10 +607,9 @@ nav:
       - "STEM":
         - "Building a Modern Computer from First Principles": stem/building-a-modern-computer-from-first-principles.md
     - "Games":
-      - "Games":
+      - "Gaming":
         - "Artemis spaceship simulator": games/artemis-spaceship-simulator.md
         - "Ingress": games/ingress.md
-      - "Gaming":
         - "Paranoia RPG": gaming/paranoia-rpg.md
         - "Spaceship Bridge Simulator SIG": gaming/spaceship-bridge-simulator-sig.md
       - "Pinball":
@@ -635,8 +629,6 @@ nav:
             - "Jewelry Committee Meeting 20200112": committees/jewelry-committee-meeting-20200112.md
       - "Design":
         - "Designing for CNC": design/designing-for-cnc.md
-      - "Groups":
-        - "Grant Group": groups/grant-group.md
       - "Hatcher's Armory Committee":
         - "AR-15 Class": hatcher-s-armory-committee/ar-15-class.md
         - "Meeting Minutes":
@@ -653,6 +645,7 @@ nav:
         - "Security Committee": inactive-committees/security-committee.md
       - "Interest Groups":
         - "FiberArts": interest-groups/fiberarts.md
+        - "Grant Group": groups/grant-group.md
         - "Input Device Interest Group": interest-groups/input-device-interest-group.md
         - "IoT SIG": interest-groups/iot-sig.md
         - "Leather": interest-groups/leather.md
@@ -660,9 +653,6 @@ nav:
         - "Robotics Interest Group": interest-groups/robotics-interest-group.md
         - "Sewing SIG": interest-groups/sewing-sig.md
         - "Wide Format Printer SIG": interest-groups/wide-format-printer-sig.md
-      - "Logistics Committee":
-        - "Logistics Committee Meeting 20180204": logistics-committee/logistics-committee-meeting-20180204.md
-        - "Logistics Committee Meeting 20180424": logistics-committee/logistics-committee-meeting-20180424.md
       - "Makers":
         - "Haley Moore": makers/haley-moore.md
         - "Kevin Braby": makers/kevin-braby.md
@@ -1066,6 +1056,8 @@ nav:
       - "Paper Towels": logistics/paper-towels.md
       - "Meeting Minutes":
         - "2018":
+          - "Logistics Committee Meeting 20180204": logistics-committee/logistics-committee-meeting-20180204.md
+          - "Logistics Committee Meeting 20180424": logistics-committee/logistics-committee-meeting-20180424.md
           - "Logistics Committee Meeting 20180715": logistics/logistics-committee-meeting-20180715.md
         - "2017":
           - "Logistics Committee Meeting 20170430": logistics/logistics-committee-meeting-20170430.md
@@ -1224,22 +1216,23 @@ nav:
           - "Ceramics Committee Meeting 20191106": ceramics-committee-meeting/ceramics-committee-meeting-20191106.md
       - "Committee Meetings":
         - "Machine Shop Committee Meeting 20210424": committee-meetings/machine-shop-committee-meeting-20210424.md
-      - "Computer Committee Meeting":
-        - "Computer Committee Meeting 20161014": computer-committee-meeting/computer-committee-meeting-20161014.md
       - "Computer Committee Meetings":
-        - "Computer Committee Meeting 20180112": computer-committee-meetings/computer-committee-meeting-20180112.md
-        - "Computer Committee Meeting 20181107": computer-committee-meetings/computer-committee-meeting-20181107.md
-        - "Computer Committee Meeting 20181121": computer-committee-meetings/computer-committee-meeting-20181121.md
+        - "2018":
+          - "Computer Committee Meeting 20180112": computer-committee-meetings/computer-committee-meeting-20180112.md
+          - "Computer Committee Meeting 20181107": computer-committee-meetings/computer-committee-meeting-20181107.md
+          - "Computer Committee Meeting 20181121": computer-committee-meetings/computer-committee-meeting-20181121.md
+        - "2016":
+          - "Computer Committee Meeting 20161014": computer-committee-meeting/computer-committee-meeting-20161014.md
       - "Infrastructure Meetings":
         - "Infrastructure Committee Meeting (template)": infrastructure-meetings/infrastructure-committee-meeting-template.md
         - "Meeting Minutes":
           - "2019":
             - "Infrastructure Committee Meeting 20190508": infrastructure-meetings/infrastructure-committee-meeting-20190508.md
-      - "Meeting":
-        - "GlassWorks Comittee Meeting 20200711": meeting/glassworks-comittee-meeting-20200711.md
       - "Meetings":
         - "2021":
           - "Jewelry Committee Meeting 20211012": meetings/jewelry-committee-meeting-20211012.md
+        - "2020":
+          - "GlassWorks Comittee Meeting 20200711": meeting/glassworks-comittee-meeting-20200711.md
         - "2018":
           - "Regular Member Meeting 20180608": meetings/regular-member-meeting-20180608.md
       - "Member Meeting":

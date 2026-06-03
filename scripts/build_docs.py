@@ -356,6 +356,20 @@ TOOL_CATS = {"tools", "equipment", "manuals", "infrastructure",
              "software-development-equipment", "hardware"}
 GOV_CATS = {"dallas-makerspace", "dms-official", "board-of-directors",
             "officers", "financial", "public-relations", "logistics", "secretary"}
+# Near-duplicate categories the wiki accumulated over the years; each alias slug
+# is folded into a canonical category in the nav (pages keep their files).
+CATEGORY_MERGES = {
+    "woodshop": "wood-shop",
+    "jewelry": "jewelry-small-metals-committee",
+    "small-metals": "jewelry-small-metals-committee",
+    "software": "software-development",
+    "games": "gaming",
+    "groups": "interest-groups",
+    "logistics-committee": "logistics",
+    "vcc-inventory": "vcc",
+    "meeting": "meetings",
+    "computer-committee-meeting": "computer-committee-meetings",
+}
 MONTHS = ["january", "february", "march", "april", "may", "june", "july",
           "august", "september", "october", "november", "december"]
 # DMS typed meeting dates a dozen ways. meeting_date() extracts (year, month)
@@ -502,15 +516,21 @@ def write_mkdocs_yml(entries: list[dict]) -> None:
     def esc(s):
         return s.replace('"', '\\"')
 
+    # Canonical label per slug, so merged categories show one consistent name.
+    slug_label = {}
+    for e in entries:
+        slug_label.setdefault(e["slug"], e["category"])
+
     # tree: group -> subgroup(None|str) -> slug -> {"label", "pages": [(label,path)]}
     tree: dict = collections.defaultdict(
         lambda: collections.defaultdict(lambda: collections.defaultdict(
             lambda: {"label": "", "pages": []})))
     for e in entries:
-        group = group_for(e["slug"])
-        sub = subgroup_for(group, e["slug"])
-        node = tree[group][sub][e["slug"]]
-        node["label"] = e["category"]
+        slug = CATEGORY_MERGES.get(e["slug"], e["slug"])
+        group = group_for(slug)
+        sub = subgroup_for(group, slug)
+        node = tree[group][sub][slug]
+        node["label"] = slug_label.get(slug, e["category"])
         node["pages"].append((e["page_label"], e["path"]))
 
     def emit_pages(pages, indent):
