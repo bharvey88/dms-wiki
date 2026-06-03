@@ -1,0 +1,8 @@
+# Site build (used by CI to build + deploy the committed docs/)
+mkdocs-material>=9.5
+
+# Conversion engine (scripts/build_docs.py) — local use only, not needed by CI
+requests>=2.31
+beautifulsoup4>=4.12
+lxml>=5.0
+pypandoc_binary>=1.13

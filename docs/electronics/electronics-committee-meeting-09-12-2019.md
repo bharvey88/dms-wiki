@@ -1,0 +1,28 @@
+# Electronics Committee Meeting 09-12-2019
+
+!!! note "Source"
+    Mirrored from [Electronics Committee Meeting 09-12-2019](https://dallasmakerspace.org/wiki/Electronics_Committee_Meeting_09-12-2019) on the Dallas Makerspace wiki (CC BY-SA 3.0).
+
+**DMS Wiki is being migrated to [source.dallasmakerspace.org](https://source.dallasmakerspace.org/)**
+Please go see the content on Source.
+
+Link: [source.dallasmakerspace.org](https://source.dallasmakerspace.org/)
+
+Electronics Committee Meeting 09-12-2019
+
+Start: 7:30p
+
+New Members / Visitors - John Crutti, Jack Smith
+
+Round of Introductions
+
+ELab Status / Consumables - no reports
+
+SIG Reports:
+
+       PCB Mill - Michael Stovenour. Working on hold down fixture. Hinges needed for enclosure and front lid.
+       Amateur Radio - Still need to set date for mtng. Hugo Smith set up AR gear on north side (window)of ELab.
+
+Misc - More discussion on fpga’s, etc.
+
+Adjrn: 8:00p

@@ -1,0 +1,46 @@
+/* Dallas Makerspace red/black brand treatment.
+   --dms-red is sampled from dallasmakerspace.org. This file is the source of
+   truth; build_docs.py copies it to docs/stylesheets/extra.css on each run. */
+:root {
+  --dms-red: #fb3c2d;
+  --dms-red-light: #ff5d50;
+  --dms-red-dark: #d92a1c;
+  --dms-black: #0a0a0a;
+}
+
+/* Light scheme: red primary, black header/footer */
+[data-md-color-scheme="default"] {
+  --md-primary-fg-color: var(--dms-red);
+  --md-primary-fg-color--light: var(--dms-red-light);
+  --md-primary-fg-color--dark: var(--dms-red-dark);
+  --md-accent-fg-color: var(--dms-red-dark);
+}
+
+/* Force the header and tabs bar to true black in light mode */
+[data-md-color-scheme="default"] .md-header,
+[data-md-color-scheme="default"] .md-tabs {
+  background-color: var(--dms-black);
+  color: #fff;
+}
+[data-md-color-scheme="default"] .md-footer {
+  background-color: var(--dms-black);
+}
+
+/* Red links/headings in light mode for brand consistency */
+[data-md-color-scheme="default"] .md-typeset a {
+  color: var(--dms-red-dark);
+}
+[data-md-color-scheme="default"] .md-nav__link--active,
+[data-md-color-scheme="default"] .md-typeset h1 {
+  color: var(--dms-red-dark);
+}
+
+/* Dark scheme: black surfaces, red accents/links */
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color: var(--dms-black);
+  --md-accent-fg-color: var(--dms-red);
+  --md-typeset-a-color: var(--dms-red-light);
+}
+[data-md-color-scheme="slate"] .md-typeset a {
+  color: var(--dms-red-light);
+}

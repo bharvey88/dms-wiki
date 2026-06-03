@@ -1,0 +1,21 @@
+# 2011 Mark Havens Statement of Intent
+
+!!! note "Source"
+    Mirrored from [2011 Mark Havens Statement of Intent](https://dallasmakerspace.org/wiki/2011_Mark_Havens_Statement_of_Intent) on the Dallas Makerspace wiki (CC BY-SA 3.0).
+
+**DMS Wiki is being migrated to [source.dallasmakerspace.org](https://source.dallasmakerspace.org/)**
+Please go see the content on Source.
+
+Link: <https://source.dallasmakerspace.org/display/Board/2011+Mark+Havens+Statement+of+Intent>
+
+To whom it may concern,
+
+Please let this serve as a formal acceptance of nomination for the 2011 election of the Board of Directors for Dallas Makerspace.
+
+As a DMS co-founder and incumbent of the current provisional board and steering committee, I have helped to lead our organization in the direction of growth and prosperity. While continuing to serve our community, I would seek policies of prudence and fairness, while also enabling others to help grow our membership and revenue. My vision for what we could become includes innovations uncommon to the nonprofit world, and I will continue to leverage these innovations throughout my term of service.
+
+Sincerely,
+
+Mark Havens
+
+mrhavens 10:14, 15 April 2011 (CDT)
