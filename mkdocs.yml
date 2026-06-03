@@ -72,14 +72,7 @@ nav:
   - Home: index.md
   - "Areas & Committees":
     - "3D Fabrication":
-      - "3D Fab Meeting - 20150412": 3d-fabrication/3d-fab-meeting-20150412.md
-      - "3D Fabrication Committee Meeting 20200711": 3d-fabrication/3d-fabrication-committee-meeting-20200711.md
-      - "3D Fabrication Committee Meeting 20200801": 3d-fabrication/3d-fabrication-committee-meeting-20200801.md
-      - "3D Fabrication Committee Meeting 20200926": 3d-fabrication/3d-fabrication-committee-meeting-20200926.md
-      - "3D Fabrication Committee Meeting 20201107": 3d-fabrication/3d-fabrication-committee-meeting-20201107.md
       - "3D Fabrication Committee/Activity History": 3d-fabrication/3d-fabrication-committee-activity-history.md
-      - "3D Fabrication Committee/report 20131208": 3d-fabrication/3d-fabrication-committee-report-20131208.md
-      - "3D Fabrication Committee/report 20140213": 3d-fabrication/3d-fabrication-committee-report-20140213.md
       - "3D Printers": 3d-fabrication/3d-printers.md
       - "3DFab-Members-RolesAndAuthorizations": 3d-fabrication/3dfab-members-rolesandauthorizations.md
       - "Cosplay": 3d-fabrication/cosplay.md
@@ -95,11 +88,22 @@ nav:
       - "RostockMAX": 3d-fabrication/rostockmax.md
       - "SeeMeCnc": 3d-fabrication/seemecnc.md
       - "Sells Mendel 201105": 3d-fabrication/sells-mendel-201105.md
+      - "Meeting Minutes":
+        - "2020":
+          - "3D Fabrication Committee Meeting 20200711": 3d-fabrication/3d-fabrication-committee-meeting-20200711.md
+          - "3D Fabrication Committee Meeting 20200801": 3d-fabrication/3d-fabrication-committee-meeting-20200801.md
+          - "3D Fabrication Committee Meeting 20200926": 3d-fabrication/3d-fabrication-committee-meeting-20200926.md
+          - "3D Fabrication Committee Meeting 20201107": 3d-fabrication/3d-fabrication-committee-meeting-20201107.md
+        - "2015":
+          - "3D Fab Meeting - 20150412": 3d-fabrication/3d-fab-meeting-20150412.md
+        - "2014":
+          - "3D Fabrication Committee/report 20140213": 3d-fabrication/3d-fabrication-committee-report-20140213.md
+        - "2013":
+          - "3D Fabrication Committee/report 20131208": 3d-fabrication/3d-fabrication-committee-report-20131208.md
     - "Active Committees":
       - "Infrastructure OLA": active-committees/infrastructure-ola.md
       - "Infrastructure SLA": active-committees/infrastructure-sla.md
     - "Aerospace":
-      - "Aerospace Meeting - 20150409": aerospace/aerospace-meeting-20150409.md
       - "Chesley's Certification Rocket": aerospace/chesley-s-certification-rocket.md
       - "DMS High Altitude Balloon": aerospace/dms-high-altitude-balloon.md
       - "DMS High Altitude Mission Return Vehicle": aerospace/dms-high-altitude-mission-return-vehicle.md
@@ -110,6 +114,9 @@ nav:
       - "DMS Trainer Plane": aerospace/dms-trainer-plane.md
       - "Fundamentals of Astronautics": aerospace/fundamentals-of-astronautics.md
       - "Fundamentals of Astronautics : Our Solar System": aerospace/fundamentals-of-astronautics-our-solar-system.md
+      - "Meeting Minutes":
+        - "2015":
+          - "Aerospace Meeting - 20150409": aerospace/aerospace-meeting-20150409.md
     - "Amateur Radio":
       - "Amateur Radio Class": amateur-radio/amateur-radio-class.md
       - "Amateur Radio Committee - Meeting Notes 03-19-14": amateur-radio/amateur-radio-committee-meeting-notes-03-19-14.md
@@ -140,20 +147,25 @@ nav:
       - "LemonsRace-StoryOfHowWeDidIt": automotive/lemonsrace-storyofhowwedidit.md
     - "AV Studio":
       - "AV Studio": av-studio/av-studio.md
-      - "AV STUDIO MEETING 20140714": av-studio/av-studio-meeting-20140714.md
-      - "AV STUDIO MEETING 20140804": av-studio/av-studio-meeting-20140804.md
-      - "AV STUDIO MEETING 20140818": av-studio/av-studio-meeting-20140818.md
-      - "AV STUDIO MEETING 20140915": av-studio/av-studio-meeting-20140915.md
-      - "AV STUDIO MEETING 20141006": av-studio/av-studio-meeting-20141006.md
       - "YouTube Standard": av-studio/youtube-standard.md
+      - "Meeting Minutes":
+        - "2014":
+          - "AV STUDIO MEETING 20140714": av-studio/av-studio-meeting-20140714.md
+          - "AV STUDIO MEETING 20140804": av-studio/av-studio-meeting-20140804.md
+          - "AV STUDIO MEETING 20140818": av-studio/av-studio-meeting-20140818.md
+          - "AV STUDIO MEETING 20140915": av-studio/av-studio-meeting-20140915.md
+          - "AV STUDIO MEETING 20141006": av-studio/av-studio-meeting-20141006.md
     - "Blacksmithing":
-      - "Blacksmithing Committee Meeting 20191117": blacksmithing/blacksmithing-committee-meeting-20191117.md
-      - "Blacksmithing Committee Meeting 20200217": blacksmithing/blacksmithing-committee-meeting-20200217.md
-      - "Blacksmithing Committee Meeting 20200308": blacksmithing/blacksmithing-committee-meeting-20200308.md
-      - "Blacksmithing Committee Meeting 20200412": blacksmithing/blacksmithing-committee-meeting-20200412.md
-      - "Blacksmithing Committee Meeting 20200508": blacksmithing/blacksmithing-committee-meeting-20200508.md
       - "KMG-10": blacksmithing/kmg-10.md
       - "Knifemaking": blacksmithing/knifemaking.md
+      - "Meeting Minutes":
+        - "2020":
+          - "Blacksmithing Committee Meeting 20200217": blacksmithing/blacksmithing-committee-meeting-20200217.md
+          - "Blacksmithing Committee Meeting 20200308": blacksmithing/blacksmithing-committee-meeting-20200308.md
+          - "Blacksmithing Committee Meeting 20200412": blacksmithing/blacksmithing-committee-meeting-20200412.md
+          - "Blacksmithing Committee Meeting 20200508": blacksmithing/blacksmithing-committee-meeting-20200508.md
+        - "2019":
+          - "Blacksmithing Committee Meeting 20191117": blacksmithing/blacksmithing-committee-meeting-20191117.md
     - "Ceramics":
       - "Firing Team Guidelines": ceramics/firing-team-guidelines.md
     - "Civic Hacking":
@@ -165,27 +177,31 @@ nav:
       - "ColchesterThreadCutting": colchester-lathe/colchesterthreadcutting.md
     - "Committees":
       - "Committee chair transition": committees/committee-chair-transition.md
-      - "Jewelry Committee Meeting 20200112": committees/jewelry-committee-meeting-20200112.md
+      - "Meeting Minutes":
+        - "2020":
+          - "Jewelry Committee Meeting 20200112": committees/jewelry-committee-meeting-20200112.md
     - "Computer Committee":
       - "Hackerspace Meeting 20191016": computer-committee/hackerspace-meeting-20191016.md
     - "Creative Arts":
-      - "Creative Arts Committee Meeting 20200121": creative-arts/creative-arts-committee-meeting-20200121.md
-      - "Creative Arts Committee Meeting 20200217": creative-arts/creative-arts-committee-meeting-20200217.md
-      - "Creative Arts Committee Meeting 20200721": creative-arts/creative-arts-committee-meeting-20200721.md
-      - "Creative Arts Committee Meeting 20200908": creative-arts/creative-arts-committee-meeting-20200908.md
-      - "Creative arts committee meeting 20201013": creative-arts/creative-arts-committee-meeting-20201013.md
-      - "Creative arts committee meeting 20201109": creative-arts/creative-arts-committee-meeting-20201109.md
-      - "Creative arts committee meeting 20201214": creative-arts/creative-arts-committee-meeting-20201214.md
       - "DallasMakerspaceInkleLoom": creative-arts/dallasmakerspaceinkleloom.md
       - "Embroidery Class Curriculum": creative-arts/embroidery-class-curriculum.md
       - "Intro to CA": creative-arts/intro-to-ca.md
       - "Numismatics, from Hobby to Science": creative-arts/numismatics-from-hobby-to-science.md
       - "Passport Stamp Contest": creative-arts/passport-stamp-contest.md
-      - "Sewing SIG meeting 20200204": creative-arts/sewing-sig-meeting-20200204.md
       - "Shirt Designs": creative-arts/shirt-designs.md
       - "Silhouette Cameo 2": creative-arts/silhouette-cameo-2.md
       - "Thing Table": creative-arts/thing-table.md
       - "Vinyl Cutter quick reference": creative-arts/vinyl-cutter-quick-reference.md
+      - "Meeting Minutes":
+        - "2020":
+          - "Creative Arts Committee Meeting 20200121": creative-arts/creative-arts-committee-meeting-20200121.md
+          - "Creative Arts Committee Meeting 20200217": creative-arts/creative-arts-committee-meeting-20200217.md
+          - "Creative Arts Committee Meeting 20200721": creative-arts/creative-arts-committee-meeting-20200721.md
+          - "Creative Arts Committee Meeting 20200908": creative-arts/creative-arts-committee-meeting-20200908.md
+          - "Creative arts committee meeting 20201013": creative-arts/creative-arts-committee-meeting-20201013.md
+          - "Creative arts committee meeting 20201109": creative-arts/creative-arts-committee-meeting-20201109.md
+          - "Creative arts committee meeting 20201214": creative-arts/creative-arts-committee-meeting-20201214.md
+          - "Sewing SIG meeting 20200204": creative-arts/sewing-sig-meeting-20200204.md
     - "Crypto SIG":
       - "Blockchain": crypto-sig/blockchain.md
       - "Crypto Wallets": crypto-sig/crypto-wallets.md
@@ -194,25 +210,33 @@ nav:
       - "Designing for CNC": design/designing-for-cnc.md
     - "Digital Media":
       - "Dallas MakerCast": digital-media/dallas-makercast.md
-      - "Digital Media Committee Meeting 20150913": digital-media/digital-media-committee-meeting-20150913.md
-      - "Digital Media Committee Meeting 20190727": digital-media/digital-media-committee-meeting-20190727.md
-      - "Digital Media Committee Meeting 20190831": digital-media/digital-media-committee-meeting-20190831.md
-      - "Digital Media Committee Meeting 20190927": digital-media/digital-media-committee-meeting-20190927.md
-      - "Digital Media Committee Meeting 20191025": digital-media/digital-media-committee-meeting-20191025.md
-      - "Digital Media Committee Meeting 20191129": digital-media/digital-media-committee-meeting-20191129.md
-      - "Digital Media Committee Meeting 20191227": digital-media/digital-media-committee-meeting-20191227.md
-      - "Digital Media Committee Meeting 20200127": digital-media/digital-media-committee-meeting-20200127.md
-      - "Digital Media Committee Meeting 20201219": digital-media/digital-media-committee-meeting-20201219.md
-      - "Digital Media Committee Meeting 20210109": digital-media/digital-media-committee-meeting-20210109.md
       - "Orientation-Video Production": digital-media/orientation-video-production.md
       - "Product Lighting 101": digital-media/product-lighting-101.md
       - "USB Capture Device": digital-media/usb-capture-device.md
       - "Video ideas": digital-media/video-ideas.md
       - "Virtual Reality Headset Donation Campaign": digital-media/virtual-reality-headset-donation-campaign.md
+      - "Meeting Minutes":
+        - "2021":
+          - "Digital Media Committee Meeting 20210109": digital-media/digital-media-committee-meeting-20210109.md
+        - "2020":
+          - "Digital Media Committee Meeting 20200127": digital-media/digital-media-committee-meeting-20200127.md
+          - "Digital Media Committee Meeting 20201219": digital-media/digital-media-committee-meeting-20201219.md
+        - "2019":
+          - "Digital Media Committee Meeting 20190727": digital-media/digital-media-committee-meeting-20190727.md
+          - "Digital Media Committee Meeting 20190831": digital-media/digital-media-committee-meeting-20190831.md
+          - "Digital Media Committee Meeting 20190927": digital-media/digital-media-committee-meeting-20190927.md
+          - "Digital Media Committee Meeting 20191025": digital-media/digital-media-committee-meeting-20191025.md
+          - "Digital Media Committee Meeting 20191129": digital-media/digital-media-committee-meeting-20191129.md
+          - "Digital Media Committee Meeting 20191227": digital-media/digital-media-committee-meeting-20191227.md
+        - "2015":
+          - "Digital Media Committee Meeting 20150913": digital-media/digital-media-committee-meeting-20150913.md
     - "Dye Sublimation":
-      - "Dye Sublimation SIG Meeting 20190928": dye-sublimation/dye-sublimation-sig-meeting-20190928.md
-      - "Dye Sublimation SIG Meeting 20200127": dye-sublimation/dye-sublimation-sig-meeting-20200127.md
       - "Dye Sublimation SIG Meeting Template": dye-sublimation/dye-sublimation-sig-meeting-template.md
+      - "Meeting Minutes":
+        - "2020":
+          - "Dye Sublimation SIG Meeting 20200127": dye-sublimation/dye-sublimation-sig-meeting-20200127.md
+        - "2019":
+          - "Dye Sublimation SIG Meeting 20190928": dye-sublimation/dye-sublimation-sig-meeting-20190928.md
     - "Edibles":
       - "Brewing": edibles/brewing.md
       - "Dandelion Salad": edibles/dandelion-salad.md
@@ -232,8 +256,6 @@ nav:
       - "Electronics Committee Meeting 08-08-2019": electronics/electronics-committee-meeting-08-08-2019.md
       - "Electronics Committee Meeting 09-12-2019": electronics/electronics-committee-meeting-09-12-2019.md
       - "Electronics Committee Meeting 11-07-2019": electronics/electronics-committee-meeting-11-07-2019.md
-      - "Electronics Committee Meeting 2015-01-10": electronics/electronics-committee-meeting-2015-01-10.md
-      - "Electronics Committee Meeting 2015-04-02": electronics/electronics-committee-meeting-2015-04-02.md
       - "Electronics Room Labels": electronics/electronics-room-labels.md
       - "How to use your scope": electronics/how-to-use-your-scope.md
       - "Intro to DSP": electronics/intro-to-dsp.md
@@ -247,6 +269,10 @@ nav:
       - "Test Equipment/Triplett-9045": electronics/test-equipment-triplett-9045.md
       - "Test Equipment/Triplett-9045-2": electronics/test-equipment-triplett-9045-2.md
       - "VacuumTubeResources": electronics/vacuumtuberesources.md
+      - "Meeting Minutes":
+        - "2015":
+          - "Electronics Committee Meeting 2015-01-10": electronics/electronics-committee-meeting-2015-01-10.md
+          - "Electronics Committee Meeting 2015-04-02": electronics/electronics-committee-meeting-2015-04-02.md
     - "Embedded Systems":
       - "Beagle Bone Black Stuff": embedded-systems/beagle-bone-black-stuff.md
       - "Embedded Workshop SIG": embedded-systems/embedded-workshop-sig.md
@@ -263,35 +289,41 @@ nav:
       - "Paranoia RPG": gaming/paranoia-rpg.md
       - "Spaceship Bridge Simulator SIG": gaming/spaceship-bridge-simulator-sig.md
     - "GlassWorks":
-      - "GlassWorks 20180608": glassworks/glassworks-20180608.md
-      - "GlassWorks 20180907": glassworks/glassworks-20180907.md
-      - "GlassWorks 20190308": glassworks/glassworks-20190308.md
-      - "GlassWorks 20190417": glassworks/glassworks-20190417.md
-      - "GlassWorks 20190520": glassworks/glassworks-20190520.md
-      - "GlassWorks 20190826": glassworks/glassworks-20190826.md
-      - "GlassWorks 20191029": glassworks/glassworks-20191029.md
-      - "GlassWorks 20191212": glassworks/glassworks-20191212.md
-      - "GlassWorks 20202208": glassworks/glassworks-20202208.md
-      - "GlassWorks 20202508 Chair Vote": glassworks/glassworks-20202508-chair-vote.md
-      - "GlassWorks 20202710": glassworks/glassworks-20202710.md
-      - "GlassWorks 20203011": glassworks/glassworks-20203011.md
-      - "GlassWorks 20211006": glassworks/glassworks-20211006.md
-      - "GlassWorks 20211019": glassworks/glassworks-20211019.md
-      - "GlassWorks 20211103": glassworks/glassworks-20211103.md
-      - "GlassWorks 20211110": glassworks/glassworks-20211110.md
-      - "GlassWorks 20211201": glassworks/glassworks-20211201.md
-      - "GlassWorks 20220105": glassworks/glassworks-20220105.md
-      - "GlassWorks 20220202": glassworks/glassworks-20220202.md
-      - "GlassWorks 20220406": glassworks/glassworks-20220406.md
-      - "GlassWorks 20220504": glassworks/glassworks-20220504.md
-      - "GlassWorks 20220601": glassworks/glassworks-20220601.md
-      - "GlassWorks 20220803": glassworks/glassworks-20220803.md
-      - "GlassWorks 20220907": glassworks/glassworks-20220907.md
-      - "GlassWorks 20221011": glassworks/glassworks-20221011.md
-      - "GlassWorks 20221102": glassworks/glassworks-20221102.md
       - "GlassWorks Committee Meeting 11303030": glassworks/glassworks-committee-meeting-11303030.md
       - "GlassWorks MicrowaveFusing": glassworks/glassworks-microwavefusing.md
       - "GlassWorks StainedGlass": glassworks/glassworks-stainedglass.md
+      - "Meeting Minutes":
+        - "2022":
+          - "GlassWorks 20220105": glassworks/glassworks-20220105.md
+          - "GlassWorks 20220202": glassworks/glassworks-20220202.md
+          - "GlassWorks 20220406": glassworks/glassworks-20220406.md
+          - "GlassWorks 20220504": glassworks/glassworks-20220504.md
+          - "GlassWorks 20220601": glassworks/glassworks-20220601.md
+          - "GlassWorks 20220803": glassworks/glassworks-20220803.md
+          - "GlassWorks 20220907": glassworks/glassworks-20220907.md
+          - "GlassWorks 20221011": glassworks/glassworks-20221011.md
+          - "GlassWorks 20221102": glassworks/glassworks-20221102.md
+        - "2021":
+          - "GlassWorks 20211006": glassworks/glassworks-20211006.md
+          - "GlassWorks 20211019": glassworks/glassworks-20211019.md
+          - "GlassWorks 20211103": glassworks/glassworks-20211103.md
+          - "GlassWorks 20211110": glassworks/glassworks-20211110.md
+          - "GlassWorks 20211201": glassworks/glassworks-20211201.md
+        - "2020":
+          - "GlassWorks 20202208": glassworks/glassworks-20202208.md
+          - "GlassWorks 20202508 Chair Vote": glassworks/glassworks-20202508-chair-vote.md
+          - "GlassWorks 20202710": glassworks/glassworks-20202710.md
+          - "GlassWorks 20203011": glassworks/glassworks-20203011.md
+        - "2019":
+          - "GlassWorks 20190308": glassworks/glassworks-20190308.md
+          - "GlassWorks 20190417": glassworks/glassworks-20190417.md
+          - "GlassWorks 20190520": glassworks/glassworks-20190520.md
+          - "GlassWorks 20190826": glassworks/glassworks-20190826.md
+          - "GlassWorks 20191029": glassworks/glassworks-20191029.md
+          - "GlassWorks 20191212": glassworks/glassworks-20191212.md
+        - "2018":
+          - "GlassWorks 20180608": glassworks/glassworks-20180608.md
+          - "GlassWorks 20180907": glassworks/glassworks-20180907.md
     - "Groups":
       - "Grant Group": groups/grant-group.md
     - "Hackerspace Committee":
@@ -301,8 +333,10 @@ nav:
       - "Hacking your Android": hacking/hacking-your-android.md
     - "Hatcher's Armory Committee":
       - "AR-15 Class": hatcher-s-armory-committee/ar-15-class.md
-      - "Hatchers Armory Meeting 20190526": hatcher-s-armory-committee/hatchers-armory-meeting-20190526.md
-      - "Hatchers Armory Meeting 20191117": hatcher-s-armory-committee/hatchers-armory-meeting-20191117.md
+      - "Meeting Minutes":
+        - "2019":
+          - "Hatchers Armory Meeting 20190526": hatcher-s-armory-committee/hatchers-armory-meeting-20190526.md
+          - "Hatchers Armory Meeting 20191117": hatcher-s-armory-committee/hatchers-armory-meeting-20191117.md
     - "Inactive Committees":
       - "Amateur Radio Committee": inactive-committees/amateur-radio-committee.md
       - "Competitive Robotics Committee": inactive-committees/competitive-robotics-committee.md
@@ -327,29 +361,35 @@ nav:
       - "Jewelry Committee Meeting 20220913": jewelry/jewelry-committee-meeting-20220913.md
       - "Jewelry Committee Meeting 20221213": jewelry/jewelry-committee-meeting-20221213.md
     - "Jewelry/Small Metals Committee":
-      - "Jewelry Committee Meeting 20201110": jewelry-small-metals-committee/jewelry-committee-meeting-20201110.md
-      - "Jewelry Committee Meeting 20201215": jewelry-small-metals-committee/jewelry-committee-meeting-20201215.md
-      - "Jewelry Committee Meeting 20210309": jewelry-small-metals-committee/jewelry-committee-meeting-20210309.md
-      - "Jewelry Committee Meeting 20210511": jewelry-small-metals-committee/jewelry-committee-meeting-20210511.md
-      - "Jewelry Committee Meeting 20210921": jewelry-small-metals-committee/jewelry-committee-meeting-20210921.md
-      - "Jewelry Committee Meeting 20220308": jewelry-small-metals-committee/jewelry-committee-meeting-20220308.md
-      - "Jewelry Committee Meeting 20230213": jewelry-small-metals-committee/jewelry-committee-meeting-20230213.md
-      - "JSM Committee Meeting 20180918": jewelry-small-metals-committee/jsm-committee-meeting-20180918.md
-      - "JSM Committee Meeting 20181113": jewelry-small-metals-committee/jsm-committee-meeting-20181113.md
-      - "JSM Committee Meeting 20181211": jewelry-small-metals-committee/jsm-committee-meeting-20181211.md
-      - "JSM Committee Meeting 20190108": jewelry-small-metals-committee/jsm-committee-meeting-20190108.md
-      - "JSM Committee Meeting 20190212": jewelry-small-metals-committee/jsm-committee-meeting-20190212.md
-      - "JSM Committee Meeting 20190312": jewelry-small-metals-committee/jsm-committee-meeting-20190312.md
-      - "JSM Committee Meeting 20190409": jewelry-small-metals-committee/jsm-committee-meeting-20190409.md
-      - "JSM Committee Meeting 20190514": jewelry-small-metals-committee/jsm-committee-meeting-20190514.md
-      - "JSM Committee Meeting 20190611": jewelry-small-metals-committee/jsm-committee-meeting-20190611.md
-      - "JSM Committee Meeting 20190709": jewelry-small-metals-committee/jsm-committee-meeting-20190709.md
-      - "JSM Committee Meeting 20190813": jewelry-small-metals-committee/jsm-committee-meeting-20190813.md
-      - "JSM Committee Meeting 20190910": jewelry-small-metals-committee/jsm-committee-meeting-20190910.md
-      - "JSM Committee Meeting 20200114": jewelry-small-metals-committee/jsm-committee-meeting-20200114.md
-      - "JSM Committee Meeting 20200211": jewelry-small-metals-committee/jsm-committee-meeting-20200211.md
-      - "JSM Committee Meeting 20200310": jewelry-small-metals-committee/jsm-committee-meeting-20200310.md
-      - "JSM Committee Meeting 20200714": jewelry-small-metals-committee/jsm-committee-meeting-20200714.md
+      - "2023":
+        - "Jewelry Committee Meeting 20230213": jewelry-small-metals-committee/jewelry-committee-meeting-20230213.md
+      - "2022":
+        - "Jewelry Committee Meeting 20220308": jewelry-small-metals-committee/jewelry-committee-meeting-20220308.md
+      - "2021":
+        - "Jewelry Committee Meeting 20210309": jewelry-small-metals-committee/jewelry-committee-meeting-20210309.md
+        - "Jewelry Committee Meeting 20210511": jewelry-small-metals-committee/jewelry-committee-meeting-20210511.md
+        - "Jewelry Committee Meeting 20210921": jewelry-small-metals-committee/jewelry-committee-meeting-20210921.md
+      - "2020":
+        - "Jewelry Committee Meeting 20201110": jewelry-small-metals-committee/jewelry-committee-meeting-20201110.md
+        - "Jewelry Committee Meeting 20201215": jewelry-small-metals-committee/jewelry-committee-meeting-20201215.md
+        - "JSM Committee Meeting 20200114": jewelry-small-metals-committee/jsm-committee-meeting-20200114.md
+        - "JSM Committee Meeting 20200211": jewelry-small-metals-committee/jsm-committee-meeting-20200211.md
+        - "JSM Committee Meeting 20200310": jewelry-small-metals-committee/jsm-committee-meeting-20200310.md
+        - "JSM Committee Meeting 20200714": jewelry-small-metals-committee/jsm-committee-meeting-20200714.md
+      - "2019":
+        - "JSM Committee Meeting 20190108": jewelry-small-metals-committee/jsm-committee-meeting-20190108.md
+        - "JSM Committee Meeting 20190212": jewelry-small-metals-committee/jsm-committee-meeting-20190212.md
+        - "JSM Committee Meeting 20190312": jewelry-small-metals-committee/jsm-committee-meeting-20190312.md
+        - "JSM Committee Meeting 20190409": jewelry-small-metals-committee/jsm-committee-meeting-20190409.md
+        - "JSM Committee Meeting 20190514": jewelry-small-metals-committee/jsm-committee-meeting-20190514.md
+        - "JSM Committee Meeting 20190611": jewelry-small-metals-committee/jsm-committee-meeting-20190611.md
+        - "JSM Committee Meeting 20190709": jewelry-small-metals-committee/jsm-committee-meeting-20190709.md
+        - "JSM Committee Meeting 20190813": jewelry-small-metals-committee/jsm-committee-meeting-20190813.md
+        - "JSM Committee Meeting 20190910": jewelry-small-metals-committee/jsm-committee-meeting-20190910.md
+      - "2018":
+        - "JSM Committee Meeting 20180918": jewelry-small-metals-committee/jsm-committee-meeting-20180918.md
+        - "JSM Committee Meeting 20181113": jewelry-small-metals-committee/jsm-committee-meeting-20181113.md
+        - "JSM Committee Meeting 20181211": jewelry-small-metals-committee/jsm-committee-meeting-20181211.md
     - "Laser":
       - "Laser Committee Meeting Minutes 01182019": laser/laser-committee-meeting-minutes-01182019.md
       - "Laser Committee Meeting Minutes 02222020": laser/laser-committee-meeting-minutes-02222020.md
@@ -358,14 +398,6 @@ nav:
       - "Laser Committee Meeting Minutes 07042019": laser/laser-committee-meeting-minutes-07042019.md
       - "Laser Committee Meeting Minutes 07252020": laser/laser-committee-meeting-minutes-07252020.md
       - "Laser Committee Meeting Minutes 09132020": laser/laser-committee-meeting-minutes-09132020.md
-      - "Laser Committee Meeting Minutes 20190707": laser/laser-committee-meeting-minutes-20190707.md
-      - "Laser Committee Meeting Minutes 20190804": laser/laser-committee-meeting-minutes-20190804.md
-      - "Laser Committee Meeting Minutes 20190908": laser/laser-committee-meeting-minutes-20190908.md
-      - "Laser Committee Meeting Minutes 20191006": laser/laser-committee-meeting-minutes-20191006.md
-      - "Laser Committee Meeting Minutes 20191019": laser/laser-committee-meeting-minutes-20191019.md
-      - "Laser Committee Meeting Minutes 20191123": laser/laser-committee-meeting-minutes-20191123.md
-      - "Laser Committee Meeting Minutes 20191228": laser/laser-committee-meeting-minutes-20191228.md
-      - "Laser Committee Meeting Minutes 20210125": laser/laser-committee-meeting-minutes-20210125.md
       - "Laser Committee/Maintenance History": laser/laser-committee-maintenance-history.md
       - "Laser Cutter Materials": laser/laser-cutter-materials.md
       - "Laser Cutter Touchscreen": laser/laser-cutter-touchscreen.md
@@ -375,6 +407,17 @@ nav:
       - "Laser Scrap": laser/laser-scrap.md
       - "Lasersaur Laser Cutter": laser/lasersaur-laser-cutter.md
       - "MakerSpace Lasers": laser/makerspace-lasers.md
+      - "Meeting Minutes":
+        - "2021":
+          - "Laser Committee Meeting Minutes 20210125": laser/laser-committee-meeting-minutes-20210125.md
+        - "2019":
+          - "Laser Committee Meeting Minutes 20190707": laser/laser-committee-meeting-minutes-20190707.md
+          - "Laser Committee Meeting Minutes 20190804": laser/laser-committee-meeting-minutes-20190804.md
+          - "Laser Committee Meeting Minutes 20190908": laser/laser-committee-meeting-minutes-20190908.md
+          - "Laser Committee Meeting Minutes 20191006": laser/laser-committee-meeting-minutes-20191006.md
+          - "Laser Committee Meeting Minutes 20191019": laser/laser-committee-meeting-minutes-20191019.md
+          - "Laser Committee Meeting Minutes 20191123": laser/laser-committee-meeting-minutes-20191123.md
+          - "Laser Committee Meeting Minutes 20191228": laser/laser-committee-meeting-minutes-20191228.md
     - "Logistics Committee":
       - "Logistics Committee Meeting 20180204": logistics-committee/logistics-committee-meeting-20180204.md
       - "Logistics Committee Meeting 20180424": logistics-committee/logistics-committee-meeting-20180424.md
@@ -383,41 +426,45 @@ nav:
       - "CLAUSING-Colchester 13\" Lathe": machine-shop/clausing-colchester-13-lathe.md
       - "Emco Mill Retrofit": machine-shop/emco-mill-retrofit.md
       - "HAAS Mill": machine-shop/haas-mill.md
-      - "Machine Shop Committee Meeting 20190525": machine-shop/machine-shop-committee-meeting-20190525.md
-      - "Machine Shop Committee Meeting 20190727": machine-shop/machine-shop-committee-meeting-20190727.md
-      - "Machine Shop Committee Meeting 20191228": machine-shop/machine-shop-committee-meeting-20191228.md
-      - "Machine Shop Committee Meeting 20200222": machine-shop/machine-shop-committee-meeting-20200222.md
-      - "Machine Shop Committee Meeting 20200328": machine-shop/machine-shop-committee-meeting-20200328.md
-      - "Machine Shop Committee Meeting 20200425": machine-shop/machine-shop-committee-meeting-20200425.md
-      - "Machine Shop Committee Meeting 20200523": machine-shop/machine-shop-committee-meeting-20200523.md
-      - "Machine Shop Committee Meeting 20200627": machine-shop/machine-shop-committee-meeting-20200627.md
-      - "Machine Shop Committee Meeting 20200725": machine-shop/machine-shop-committee-meeting-20200725.md
-      - "Machine Shop Committee Meeting 20200829": machine-shop/machine-shop-committee-meeting-20200829.md
-      - "Machine Shop Committee Meeting 20200926": machine-shop/machine-shop-committee-meeting-20200926.md
-      - "Machine Shop Committee Meeting 20201024": machine-shop/machine-shop-committee-meeting-20201024.md
-      - "Machine Shop Committee Meeting 20201128": machine-shop/machine-shop-committee-meeting-20201128.md
-      - "Machine Shop Committee Meeting 20201226": machine-shop/machine-shop-committee-meeting-20201226.md
-      - "Machine Shop Committee Meeting 20210227": machine-shop/machine-shop-committee-meeting-20210227.md
-      - "Machine Shop Committee Meeting 20210327": machine-shop/machine-shop-committee-meeting-20210327.md
-      - "Machine Shop Committee Meeting 20210522": machine-shop/machine-shop-committee-meeting-20210522.md
-      - "Machine Shop Committee Meeting 20210626": machine-shop/machine-shop-committee-meeting-20210626.md
-      - "Machine Shop Committee Meeting 20210724": machine-shop/machine-shop-committee-meeting-20210724.md
-      - "Machine Shop Committee Meeting 20210828": machine-shop/machine-shop-committee-meeting-20210828.md
-      - "Machine shop committee meeting 20210925": machine-shop/machine-shop-committee-meeting-20210925.md
-      - "Machine Shop committee meeting 20211023": machine-shop/machine-shop-committee-meeting-20211023.md
-      - "Machine Shop committee meeting 20211127": machine-shop/machine-shop-committee-meeting-20211127.md
-      - "Machine Shop committee meeting 20211218": machine-shop/machine-shop-committee-meeting-20211218.md
       - "Machine Shop Committee:Bridgeport:Motor Information": machine-shop/machine-shop-committee-bridgeport-motor-information.md
       - "Machine Shop Equipment Maintenance": machine-shop/machine-shop-equipment-maintenance.md
       - "Machine Shop RFID:rfid access.pl": machine-shop/machine-shop-rfid-rfid-access-pl.md
       - "Machine Shop RFID:rfid edituser.pl": machine-shop/machine-shop-rfid-rfid-edituser-pl.md
-      - "Machine Shop Special Meeting 20200310": machine-shop/machine-shop-special-meeting-20200310.md
       - "Machine Shop Tasks": machine-shop/machine-shop-tasks.md
       - "Metalworking projects": machine-shop/metalworking-projects.md
       - "Mini mill retrofit": machine-shop/mini-mill-retrofit.md
       - "Powermatic 87 Maintenance": machine-shop/powermatic-87-maintenance.md
       - "Public Domain Books on Machining": machine-shop/public-domain-books-on-machining.md
       - "Tormach-8L Lathe": machine-shop/tormach-8l-lathe.md
+      - "Meeting Minutes":
+        - "2021":
+          - "Machine Shop Committee Meeting 20210227": machine-shop/machine-shop-committee-meeting-20210227.md
+          - "Machine Shop Committee Meeting 20210327": machine-shop/machine-shop-committee-meeting-20210327.md
+          - "Machine Shop Committee Meeting 20210522": machine-shop/machine-shop-committee-meeting-20210522.md
+          - "Machine Shop Committee Meeting 20210626": machine-shop/machine-shop-committee-meeting-20210626.md
+          - "Machine Shop Committee Meeting 20210724": machine-shop/machine-shop-committee-meeting-20210724.md
+          - "Machine Shop Committee Meeting 20210828": machine-shop/machine-shop-committee-meeting-20210828.md
+          - "Machine shop committee meeting 20210925": machine-shop/machine-shop-committee-meeting-20210925.md
+          - "Machine Shop committee meeting 20211023": machine-shop/machine-shop-committee-meeting-20211023.md
+          - "Machine Shop committee meeting 20211127": machine-shop/machine-shop-committee-meeting-20211127.md
+          - "Machine Shop committee meeting 20211218": machine-shop/machine-shop-committee-meeting-20211218.md
+        - "2020":
+          - "Machine Shop Committee Meeting 20200222": machine-shop/machine-shop-committee-meeting-20200222.md
+          - "Machine Shop Committee Meeting 20200328": machine-shop/machine-shop-committee-meeting-20200328.md
+          - "Machine Shop Committee Meeting 20200425": machine-shop/machine-shop-committee-meeting-20200425.md
+          - "Machine Shop Committee Meeting 20200523": machine-shop/machine-shop-committee-meeting-20200523.md
+          - "Machine Shop Committee Meeting 20200627": machine-shop/machine-shop-committee-meeting-20200627.md
+          - "Machine Shop Committee Meeting 20200725": machine-shop/machine-shop-committee-meeting-20200725.md
+          - "Machine Shop Committee Meeting 20200829": machine-shop/machine-shop-committee-meeting-20200829.md
+          - "Machine Shop Committee Meeting 20200926": machine-shop/machine-shop-committee-meeting-20200926.md
+          - "Machine Shop Committee Meeting 20201024": machine-shop/machine-shop-committee-meeting-20201024.md
+          - "Machine Shop Committee Meeting 20201128": machine-shop/machine-shop-committee-meeting-20201128.md
+          - "Machine Shop Committee Meeting 20201226": machine-shop/machine-shop-committee-meeting-20201226.md
+          - "Machine Shop Special Meeting 20200310": machine-shop/machine-shop-special-meeting-20200310.md
+        - "2019":
+          - "Machine Shop Committee Meeting 20190525": machine-shop/machine-shop-committee-meeting-20190525.md
+          - "Machine Shop Committee Meeting 20190727": machine-shop/machine-shop-committee-meeting-20190727.md
+          - "Machine Shop Committee Meeting 20191228": machine-shop/machine-shop-committee-meeting-20191228.md
     - "Makers":
       - "Haley Moore": makers/haley-moore.md
       - "Kevin Braby": makers/kevin-braby.md
@@ -432,11 +479,13 @@ nav:
       - "Marbling": marbling-workshops/marbling.md
     - "Metal Shop":
       - "CNC Plasma Cutter Training": metal-shop/cnc-plasma-cutter-training.md
-      - "Metal Shop Committee Meeting 202100904": metal-shop/metal-shop-committee-meeting-202100904.md
-      - "Metal Shop Committee Meeting 20210810": metal-shop/metal-shop-committee-meeting-20210810.md
-      - "Metal Shop special Committee Meeting 20210821": metal-shop/metal-shop-special-committee-meeting-20210821.md
       - "Metal shop tools": metal-shop/metal-shop-tools.md
       - "Welding": metal-shop/welding.md
+      - "Meeting Minutes":
+        - "2021":
+          - "Metal Shop Committee Meeting 202100904": metal-shop/metal-shop-committee-meeting-202100904.md
+          - "Metal Shop Committee Meeting 20210810": metal-shop/metal-shop-committee-meeting-20210810.md
+          - "Metal Shop special Committee Meeting 20210821": metal-shop/metal-shop-special-committee-meeting-20210821.md
     - "Motorsports Committee":
       - "Motorsports Committee Meeting 20200821": motorsports-committee/motorsports-committee-meeting-20200821.md
     - "Museum":
@@ -457,27 +506,32 @@ nav:
       - "Plastics Specific Equipment": plastics/plastics-specific-equipment.md
       - "Vacuum Former": plastics/vacuum-former.md
     - "Printmaking":
-      - "Printmaking Committee Meeting 20180811": printmaking/printmaking-committee-meeting-20180811.md
-      - "Printmaking Committee Meeting 20181130": printmaking/printmaking-committee-meeting-20181130.md
-      - "Printmaking Committee Meeting 20190916": printmaking/printmaking-committee-meeting-20190916.md
-      - "Printmaking Committee Meeting 20191021": printmaking/printmaking-committee-meeting-20191021.md
-      - "Printmaking Committee Meeting 20200709": printmaking/printmaking-committee-meeting-20200709.md
-      - "Printmaking Committee Meeting 20200917": printmaking/printmaking-committee-meeting-20200917.md
-      - "Printmaking Committee Meeting 20201015": printmaking/printmaking-committee-meeting-20201015.md
-      - "Printmaking Committee Meeting 20201119": printmaking/printmaking-committee-meeting-20201119.md
-      - "Printmaking Committee Meeting 20201217": printmaking/printmaking-committee-meeting-20201217.md
-      - "Printmaking Committee Meeting 20210121": printmaking/printmaking-committee-meeting-20210121.md
-      - "Printmaking Committee Meeting 20210225": printmaking/printmaking-committee-meeting-20210225.md
-      - "Printmaking Committee Meeting 20210325": printmaking/printmaking-committee-meeting-20210325.md
-      - "Printmaking Committee Meeting 20210422": printmaking/printmaking-committee-meeting-20210422.md
-      - "Printmaking Committee Meeting 20210527": printmaking/printmaking-committee-meeting-20210527.md
-      - "Printmaking Committee Meeting 20210624": printmaking/printmaking-committee-meeting-20210624.md
-      - "Printmaking Committee Meeting 20210908": printmaking/printmaking-committee-meeting-20210908.md
-      - "Printmaking Committee Meeting 20211127": printmaking/printmaking-committee-meeting-20211127.md
-      - "Printmaking Committee Meeting 20220402": printmaking/printmaking-committee-meeting-20220402.md
-      - "Printmaking Committee Meeting 20220514": printmaking/printmaking-committee-meeting-20220514.md
-      - "Printmaking Committee Meeting 20220924": printmaking/printmaking-committee-meeting-20220924.md
-      - "Printmaking Meeting 2019-07-29": printmaking/printmaking-meeting-2019-07-29.md
+      - "2022":
+        - "Printmaking Committee Meeting 20220402": printmaking/printmaking-committee-meeting-20220402.md
+        - "Printmaking Committee Meeting 20220514": printmaking/printmaking-committee-meeting-20220514.md
+        - "Printmaking Committee Meeting 20220924": printmaking/printmaking-committee-meeting-20220924.md
+      - "2021":
+        - "Printmaking Committee Meeting 20210121": printmaking/printmaking-committee-meeting-20210121.md
+        - "Printmaking Committee Meeting 20210225": printmaking/printmaking-committee-meeting-20210225.md
+        - "Printmaking Committee Meeting 20210325": printmaking/printmaking-committee-meeting-20210325.md
+        - "Printmaking Committee Meeting 20210422": printmaking/printmaking-committee-meeting-20210422.md
+        - "Printmaking Committee Meeting 20210527": printmaking/printmaking-committee-meeting-20210527.md
+        - "Printmaking Committee Meeting 20210624": printmaking/printmaking-committee-meeting-20210624.md
+        - "Printmaking Committee Meeting 20210908": printmaking/printmaking-committee-meeting-20210908.md
+        - "Printmaking Committee Meeting 20211127": printmaking/printmaking-committee-meeting-20211127.md
+      - "2020":
+        - "Printmaking Committee Meeting 20200709": printmaking/printmaking-committee-meeting-20200709.md
+        - "Printmaking Committee Meeting 20200917": printmaking/printmaking-committee-meeting-20200917.md
+        - "Printmaking Committee Meeting 20201015": printmaking/printmaking-committee-meeting-20201015.md
+        - "Printmaking Committee Meeting 20201119": printmaking/printmaking-committee-meeting-20201119.md
+        - "Printmaking Committee Meeting 20201217": printmaking/printmaking-committee-meeting-20201217.md
+      - "2019":
+        - "Printmaking Committee Meeting 20190916": printmaking/printmaking-committee-meeting-20190916.md
+        - "Printmaking Committee Meeting 20191021": printmaking/printmaking-committee-meeting-20191021.md
+        - "Printmaking Meeting 2019-07-29": printmaking/printmaking-meeting-2019-07-29.md
+      - "2018":
+        - "Printmaking Committee Meeting 20180811": printmaking/printmaking-committee-meeting-20180811.md
+        - "Printmaking Committee Meeting 20181130": printmaking/printmaking-committee-meeting-20181130.md
     - "Programming":
       - "NodeJS": programming/nodejs.md
       - "Python 101": programming/python-101.md
@@ -486,10 +540,11 @@ nav:
     - "Remote Control":
       - "Aerospace Committee": remote-control/aerospace-committee.md
       - "FT Sparrow": remote-control/ft-sparrow.md
-      - "RC Committee Meeting 20151110": remote-control/rc-committee-meeting-20151110.md
       - "Robot Combat Interest Group": remote-control/robot-combat-interest-group.md
+      - "Meeting Minutes":
+        - "2015":
+          - "RC Committee Meeting 20151110": remote-control/rc-committee-meeting-20151110.md
     - "Science":
-      - "Bio Committee Meeting 2015-03-07": science/bio-committee-meeting-2015-03-07.md
       - "Bio educational resources": science/bio-educational-resources.md
       - "Bio FAQ": science/bio-faq.md
       - "Bio Group Working Area": science/bio-group-working-area.md
@@ -499,55 +554,68 @@ nav:
       - "Home Brewing": science/home-brewing.md
       - "Meeting notes for the bio projects group": science/meeting-notes-for-the-bio-projects-group.md
       - "Neural Electric Interface Working Group (NEIWG)": science/neural-electric-interface-working-group-neiwg.md
-      - "Notes 20110526": science/notes-20110526.md
-      - "Notes 20110602": science/notes-20110602.md
-      - "Notes 20110623": science/notes-20110623.md
-      - "Notes 20110630": science/notes-20110630.md
-      - "Notes 20110707": science/notes-20110707.md
-      - "Notes 20110714": science/notes-20110714.md
-      - "Notes 20110728": science/notes-20110728.md
-      - "Notes 20110915": science/notes-20110915.md
-      - "Notes 20110929": science/notes-20110929.md
-      - "Notes 20111110": science/notes-20111110.md
-      - "Notes 20111222": science/notes-20111222.md
-      - "Notes 20111229": science/notes-20111229.md
-      - "Notes 20120105": science/notes-20120105.md
-      - "Notes 20120112": science/notes-20120112.md
-      - "Notes 20120126": science/notes-20120126.md
-      - "Notes 20120202": science/notes-20120202.md
-      - "Notes 20120209": science/notes-20120209.md
-      - "Notes 20120216": science/notes-20120216.md
-      - "Notes 20120614": science/notes-20120614.md
-      - "Notes 20120621": science/notes-20120621.md
-      - "Notes 20120628": science/notes-20120628.md
-      - "Notes 20120902": science/notes-20120902.md
-      - "Notes 20121602": science/notes-20121602.md
       - "People interested in bio projects": science/people-interested-in-bio-projects.md
       - "Science Committee Library": science/science-committee-library.md
-      - "Science Committee Meeting20150828": science/science-committee-meeting20150828.md
-      - "Science Committee Meeting20150919": science/science-committee-meeting20150919.md
-      - "Science Committee Meeting20161904": science/science-committee-meeting20161904.md
-      - "Science Committee Meeting20162004": science/science-committee-meeting20162004.md
       - "Science Committee Projects": science/science-committee-projects.md
       - "Strawberry DNA extraction protocol": science/strawberry-dna-extraction-protocol.md
       - "Superconductor": science/superconductor.md
+      - "Meeting Minutes":
+        - "2016":
+          - "Science Committee Meeting20161904": science/science-committee-meeting20161904.md
+          - "Science Committee Meeting20162004": science/science-committee-meeting20162004.md
+        - "2015":
+          - "Bio Committee Meeting 2015-03-07": science/bio-committee-meeting-2015-03-07.md
+          - "Science Committee Meeting20150828": science/science-committee-meeting20150828.md
+          - "Science Committee Meeting20150919": science/science-committee-meeting20150919.md
+        - "2012":
+          - "Notes 20120105": science/notes-20120105.md
+          - "Notes 20120112": science/notes-20120112.md
+          - "Notes 20120126": science/notes-20120126.md
+          - "Notes 20120202": science/notes-20120202.md
+          - "Notes 20120209": science/notes-20120209.md
+          - "Notes 20120216": science/notes-20120216.md
+          - "Notes 20120614": science/notes-20120614.md
+          - "Notes 20120621": science/notes-20120621.md
+          - "Notes 20120628": science/notes-20120628.md
+          - "Notes 20120902": science/notes-20120902.md
+          - "Notes 20121602": science/notes-20121602.md
+        - "2011":
+          - "Notes 20110526": science/notes-20110526.md
+          - "Notes 20110602": science/notes-20110602.md
+          - "Notes 20110623": science/notes-20110623.md
+          - "Notes 20110630": science/notes-20110630.md
+          - "Notes 20110707": science/notes-20110707.md
+          - "Notes 20110714": science/notes-20110714.md
+          - "Notes 20110728": science/notes-20110728.md
+          - "Notes 20110915": science/notes-20110915.md
+          - "Notes 20110929": science/notes-20110929.md
+          - "Notes 20111110": science/notes-20111110.md
+          - "Notes 20111222": science/notes-20111222.md
+          - "Notes 20111229": science/notes-20111229.md
     - "SIG":
       - "Amateur Radio SIG": sig/amateur-radio-sig.md
-      - "AV STUDIO MEETING 20140721": sig/av-studio-meeting-20140721.md
       - "Dye Sublimation": sig/dye-sublimation.md
       - "Toastmasters SIG roles": sig/toastmasters-sig-roles.md
+      - "Meeting Minutes":
+        - "2014":
+          - "AV STUDIO MEETING 20140721": sig/av-studio-meeting-20140721.md
     - "Small Metals":
-      - "Jewelry Committee Meeting 20220412": small-metals/jewelry-committee-meeting-20220412.md
-      - "Jewelry Committee Meeting 20221101": small-metals/jewelry-committee-meeting-20221101.md
-      - "Jewelry Committee Meeting 20230110": small-metals/jewelry-committee-meeting-20230110.md
+      - "2023":
+        - "Jewelry Committee Meeting 20230110": small-metals/jewelry-committee-meeting-20230110.md
+      - "2022":
+        - "Jewelry Committee Meeting 20220412": small-metals/jewelry-committee-meeting-20220412.md
+        - "Jewelry Committee Meeting 20221101": small-metals/jewelry-committee-meeting-20221101.md
     - "Software":
       - "Coding and Coffee Workshops": software/coding-and-coffee-workshops.md
       - "Coding Challenges": software/coding-challenges.md
       - "Javascript Introduction": software/javascript-introduction.md
     - "Software Development":
-      - "Computer Committee Meeting 20180525": software-development/computer-committee-meeting-20180525.md
       - "Gitlab server": software-development/gitlab-server.md
-      - "Software Development Meeting 20190526": software-development/software-development-meeting-20190526.md
+      - "Meeting Minutes":
+        - "2019":
+          - "Software Development Meeting 20190526": software-development/software-development-meeting-20190526.md
+        - "2018":
+          - "Computer Committee Meeting 20180525": software-development/computer-committee-meeting-20180525.md
     - "STEM":
       - "Building a Modern Computer from First Principles": stem/building-a-modern-computer-from-first-principles.md
     - "Tabletop Gaming":
@@ -556,13 +624,14 @@ nav:
       - "Magic The Gathering": tabletop-gaming/magic-the-gathering.md
     - "VCC":
       - "40-node Raspberry Pi Cluster": vcc/40-node-raspberry-pi-cluster.md
-      - "Computer Committee Meeting 20190919": vcc/computer-committee-meeting-20190919.md
       - "Maker.coin": vcc/maker-coin.md
+      - "Meeting Minutes":
+        - "2019":
+          - "Computer Committee Meeting 20190919": vcc/computer-committee-meeting-20190919.md
     - "VCC Inventory":
       - "Tensorflow": vcc-inventory/tensorflow.md
     - "VECTOR":
       - "VECTOR Activity Log Archive": vector/vector-activity-log-archive.md
-      - "Vector Committee Meeting Minutes 20190808": vector/vector-committee-meeting-minutes-20190808.md
       - "VECTOR Committee Reports 2014 10 2": vector/vector-committee-reports-2014-10-2.md
       - "VECTOR Committee Reports 2015 1 8": vector/vector-committee-reports-2015-1-8.md
       - "VECTOR Committee Reports 2015 10 15": vector/vector-committee-reports-2015-10-15.md
@@ -570,6 +639,9 @@ nav:
       - "VECTOR Committee Reports 2015 7 16": vector/vector-committee-reports-2015-7-16.md
       - "VECTOR Committee Reports 2016 10 16": vector/vector-committee-reports-2016-10-16.md
       - "VECTOR Committee Training": vector/vector-committee-training.md
+      - "Meeting Minutes":
+        - "2019":
+          - "Vector Committee Meeting Minutes 20190808": vector/vector-committee-meeting-minutes-20190808.md
     - "Wood Shop":
       - "Authorized Tool Users": wood-shop/authorized-tool-users.md
       - "Dust Collection System": wood-shop/dust-collection-system.md
@@ -717,18 +789,24 @@ nav:
     - "Classroom":
       - "Class description template": classroom/class-description-template.md
       - "Classroom": classroom/classroom.md
-      - "Classroom Committee Meeting 20161019": classroom/classroom-committee-meeting-20161019.md
-      - "Classroom Committee Meeting 20170402": classroom/classroom-committee-meeting-20170402.md
       - "Rooms Guide page": classroom/rooms-guide-page.md
       - "TestClass": classroom/testclass.md
+      - "Meeting Minutes":
+        - "2017":
+          - "Classroom Committee Meeting 20170402": classroom/classroom-committee-meeting-20170402.md
+        - "2016":
+          - "Classroom Committee Meeting 20161019": classroom/classroom-committee-meeting-20161019.md
     - "Education":
-      - "Education Committee Meeting 20190518": education/education-committee-meeting-20190518.md
-      - "Education Committee Meeting 20190707": education/education-committee-meeting-20190707.md
-      - "Education Committee Meeting 20190907": education/education-committee-meeting-20190907.md
-      - "Education Committee Meeting 20191102": education/education-committee-meeting-20191102.md
-      - "Education Committee Meeting 20191220": education/education-committee-meeting-20191220.md
-      - "Education Committee Meeting 20200126": education/education-committee-meeting-20200126.md
       - "Education Committee Meeting Template": education/education-committee-meeting-template.md
+      - "Meeting Minutes":
+        - "2020":
+          - "Education Committee Meeting 20200126": education/education-committee-meeting-20200126.md
+        - "2019":
+          - "Education Committee Meeting 20190518": education/education-committee-meeting-20190518.md
+          - "Education Committee Meeting 20190707": education/education-committee-meeting-20190707.md
+          - "Education Committee Meeting 20190907": education/education-committee-meeting-20190907.md
+          - "Education Committee Meeting 20191102": education/education-committee-meeting-20191102.md
+          - "Education Committee Meeting 20191220": education/education-committee-meeting-20191220.md
     - "FAQ":
       - "MakerspaceStorageFAQ": faq/makerspacestoragefaq.md
     - "How To":
@@ -863,7 +941,9 @@ nav:
     - "Board of Directors":
       - "2020 - Statement of Intent - Freddy Calvert": board-of-directors/2020-statement-of-intent-freddy-calvert.md
       - "2020 - Statement of Intent - Luke Andraski": board-of-directors/2020-statement-of-intent-luke-andraski.md
-      - "Board of Directors Meeting 20110421": board-of-directors/board-of-directors-meeting-20110421.md
+      - "Meeting Minutes":
+        - "2011":
+          - "Board of Directors Meeting 20110421": board-of-directors/board-of-directors-meeting-20110421.md
     - "Dallas Makerspace":
       - "2012 Opinions on DMS Legal Status": dallas-makerspace/2012-opinions-on-dms-legal-status.md
       - "2013 Annual Report Progress": dallas-makerspace/2013-annual-report-progress.md
@@ -900,7 +980,6 @@ nav:
       - "Grant Resources": dallas-makerspace/grant-resources.md
       - "Help Us": dallas-makerspace/help-us.md
       - "How To Hack Bookkeeping": dallas-makerspace/how-to-hack-bookkeeping.md
-      - "Jewelry Committee Meeting 20220811": dallas-makerspace/jewelry-committee-meeting-20220811.md
       - "Lease": dallas-makerspace/lease.md
       - "Lecture Hall Presentation Guide": dallas-makerspace/lecture-hall-presentation-guide.md
       - "Liability Waiver": dallas-makerspace/liability-waiver.md
@@ -916,7 +995,6 @@ nav:
       - "Modified SRC3": dallas-makerspace/modified-src3.md
       - "Network": dallas-makerspace/network.md
       - "New Member 411": dallas-makerspace/new-member-411.md
-      - "Operations Meeting 20150410": dallas-makerspace/operations-meeting-20150410.md
       - "Organizational Objective Ideas": dallas-makerspace/organizational-objective-ideas.md
       - "Paypal Vs Authorize.net": dallas-makerspace/paypal-vs-authorize-net.md
       - "Pictures of DMS": dallas-makerspace/pictures-of-dms.md
@@ -929,7 +1007,6 @@ nav:
       - "Slaying The Form 990 EZ": dallas-makerspace/slaying-the-form-990-ez.md
       - "Software Needs": dallas-makerspace/software-needs.md
       - "Sponsorships": dallas-makerspace/sponsorships.md
-      - "VECTOR Committee Reports 2022-09-21": dallas-makerspace/vector-committee-reports-2022-09-21.md
       - "VFD Options": dallas-makerspace/vfd-options.md
       - "Warehouse wiring": dallas-makerspace/warehouse-wiring.md
       - "Warehouse Workbenches": dallas-makerspace/warehouse-workbenches.md
@@ -938,6 +1015,12 @@ nav:
       - "Wiki Examples": dallas-makerspace/wiki-examples.md
       - "Wishlist": dallas-makerspace/wishlist.md
       - "Woodshop classes": dallas-makerspace/woodshop-classes.md
+      - "Meeting Minutes":
+        - "2022":
+          - "Jewelry Committee Meeting 20220811": dallas-makerspace/jewelry-committee-meeting-20220811.md
+          - "VECTOR Committee Reports 2022-09-21": dallas-makerspace/vector-committee-reports-2022-09-21.md
+        - "2015":
+          - "Operations Meeting 20150410": dallas-makerspace/operations-meeting-20150410.md
     - "DMS Official":
       - "Board of Directors": dms-official/board-of-directors.md
       - "Bylaws": dms-official/bylaws.md
@@ -956,16 +1039,19 @@ nav:
       - "Fundraising": financial/fundraising.md
       - "Reimbursement Policies": financial/reimbursement-policies.md
     - "Logistics":
-      - "Logistics Committee Meeting 20170430": logistics/logistics-committee-meeting-20170430.md
-      - "Logistics Committee Meeting 20170620": logistics/logistics-committee-meeting-20170620.md
-      - "Logistics Committee Meeting 20170719": logistics/logistics-committee-meeting-20170719.md
-      - "Logistics Committee Meeting 20171015": logistics/logistics-committee-meeting-20171015.md
-      - "Logistics Committee Meeting 20180715": logistics/logistics-committee-meeting-20180715.md
-      - "Member Exchange Meeting 20170415": logistics/member-exchange-meeting-20170415.md
-      - "Notes from Workshop Re-Configure Meeting 20170717": logistics/notes-from-workshop-re-configure-meeting-20170717.md
       - "Operations": logistics/operations.md
       - "Operations Planning": logistics/operations-planning.md
       - "Paper Towels": logistics/paper-towels.md
+      - "Meeting Minutes":
+        - "2018":
+          - "Logistics Committee Meeting 20180715": logistics/logistics-committee-meeting-20180715.md
+        - "2017":
+          - "Logistics Committee Meeting 20170430": logistics/logistics-committee-meeting-20170430.md
+          - "Logistics Committee Meeting 20170620": logistics/logistics-committee-meeting-20170620.md
+          - "Logistics Committee Meeting 20170719": logistics/logistics-committee-meeting-20170719.md
+          - "Logistics Committee Meeting 20171015": logistics/logistics-committee-meeting-20171015.md
+          - "Member Exchange Meeting 20170415": logistics/member-exchange-meeting-20170415.md
+          - "Notes from Workshop Re-Configure Meeting 20170717": logistics/notes-from-workshop-re-configure-meeting-20170717.md
     - "Officers":
       - "Officers": officers/officers.md
       - "President": officers/president.md
@@ -975,15 +1061,19 @@ nav:
       - "Bill Posting": public-relations/bill-posting.md
       - "Blog": public-relations/blog.md
       - "Lobby Banner": public-relations/lobby-banner.md
-      - "PR Committee Meeting 20120814": public-relations/pr-committee-meeting-20120814.md
-      - "PR Committee Meeting 20120904": public-relations/pr-committee-meeting-20120904.md
-      - "PR Committee Meeting 20120925": public-relations/pr-committee-meeting-20120925.md
-      - "PR Committee Meeting 20121026": public-relations/pr-committee-meeting-20121026.md
-      - "PR Committee Meeting 20180412": public-relations/pr-committee-meeting-20180412.md
-      - "PR Committee Meeting 20180503": public-relations/pr-committee-meeting-20180503.md
-      - "Public Relations Committee Meeting 20190825": public-relations/public-relations-committee-meeting-20190825.md
       - "Public Relations Resources": public-relations/public-relations-resources.md
       - "Social Media Outlets": public-relations/social-media-outlets.md
+      - "Meeting Minutes":
+        - "2019":
+          - "Public Relations Committee Meeting 20190825": public-relations/public-relations-committee-meeting-20190825.md
+        - "2018":
+          - "PR Committee Meeting 20180412": public-relations/pr-committee-meeting-20180412.md
+          - "PR Committee Meeting 20180503": public-relations/pr-committee-meeting-20180503.md
+        - "2012":
+          - "PR Committee Meeting 20120814": public-relations/pr-committee-meeting-20120814.md
+          - "PR Committee Meeting 20120904": public-relations/pr-committee-meeting-20120904.md
+          - "PR Committee Meeting 20120925": public-relations/pr-committee-meeting-20120925.md
+          - "PR Committee Meeting 20121026": public-relations/pr-committee-meeting-20121026.md
     - "Secretary":
       - "Commercial Use Of DMS": secretary/commercial-use-of-dms.md
       - "DMS Minutes Standards": secretary/dms-minutes-standards.md
@@ -991,93 +1081,104 @@ nav:
   - "Meeting Minutes":
     - "Board & Committee Meetings":
       - "Automotive Committee Meetings":
-        - "Automotive Committee Meeting 20191229": automotive-committee-meetings/automotive-committee-meeting-20191229.md
-        - "Automotive Committee Meeting 20200329": automotive-committee-meetings/automotive-committee-meeting-20200329.md
-        - "Automotive Committee Meeting 20200628": automotive-committee-meetings/automotive-committee-meeting-20200628.md
-        - "Automotive Committee Meeting 20200726": automotive-committee-meetings/automotive-committee-meeting-20200726.md
-        - "Automotive Committee Meeting 20200927": automotive-committee-meetings/automotive-committee-meeting-20200927.md
-        - "Automotive Committee Meeting 20210131": automotive-committee-meetings/automotive-committee-meeting-20210131.md
-        - "Automotive Committee Meeting 20210425": automotive-committee-meetings/automotive-committee-meeting-20210425.md
-        - "Automotive Committee Meeting 20210630": automotive-committee-meetings/automotive-committee-meeting-20210630.md
+        - "2021":
+          - "Automotive Committee Meeting 20210131": automotive-committee-meetings/automotive-committee-meeting-20210131.md
+          - "Automotive Committee Meeting 20210425": automotive-committee-meetings/automotive-committee-meeting-20210425.md
+          - "Automotive Committee Meeting 20210630": automotive-committee-meetings/automotive-committee-meeting-20210630.md
+        - "2020":
+          - "Automotive Committee Meeting 20200329": automotive-committee-meetings/automotive-committee-meeting-20200329.md
+          - "Automotive Committee Meeting 20200628": automotive-committee-meetings/automotive-committee-meeting-20200628.md
+          - "Automotive Committee Meeting 20200726": automotive-committee-meetings/automotive-committee-meeting-20200726.md
+          - "Automotive Committee Meeting 20200927": automotive-committee-meetings/automotive-committee-meeting-20200927.md
+        - "2019":
+          - "Automotive Committee Meeting 20191229": automotive-committee-meetings/automotive-committee-meeting-20191229.md
       - "Automotive Meetings":
-        - "Automotive Committee Meeting 20191030": automotive-meetings/automotive-committee-meeting-20191030.md
-        - "Automotive Committee Meeting 20191124": automotive-meetings/automotive-committee-meeting-20191124.md
-        - "Automotive Committee Meeting 20200126": automotive-meetings/automotive-committee-meeting-20200126.md
+        - "2020":
+          - "Automotive Committee Meeting 20200126": automotive-meetings/automotive-committee-meeting-20200126.md
+        - "2019":
+          - "Automotive Committee Meeting 20191030": automotive-meetings/automotive-committee-meeting-20191030.md
+          - "Automotive Committee Meeting 20191124": automotive-meetings/automotive-committee-meeting-20191124.md
       - "Board of Directors Meetings":
-        - "Board of Directors Meeting 20190121": board-of-directors-meetings/board-of-directors-meeting-20190121.md
-        - "Board of Directors Meeting 20190128 Special Meeting": board-of-directors-meetings/board-of-directors-meeting-20190128-special-meeting.md
-        - "Board of Directors Meeting 20190218": board-of-directors-meetings/board-of-directors-meeting-20190218.md
-        - "Board of Directors Meeting 20190226 Special Meeting": board-of-directors-meetings/board-of-directors-meeting-20190226-special-meeting.md
-        - "Board of Directors Meeting 20190304 Special Meeting": board-of-directors-meetings/board-of-directors-meeting-20190304-special-meeting.md
-        - "Board of Directors Meeting 20190311 Special Meeting": board-of-directors-meetings/board-of-directors-meeting-20190311-special-meeting.md
-        - "Board of Directors Meeting 20190318": board-of-directors-meetings/board-of-directors-meeting-20190318.md
-        - "Board of Directors Meeting 20190325 Special Meeting": board-of-directors-meetings/board-of-directors-meeting-20190325-special-meeting.md
-        - "Board of Directors Meeting 20190401 Special Meeting": board-of-directors-meetings/board-of-directors-meeting-20190401-special-meeting.md
-        - "Board of Directors Meeting 20190408 Special Meeting": board-of-directors-meetings/board-of-directors-meeting-20190408-special-meeting.md
-        - "Board of Directors Meeting 20190415": board-of-directors-meetings/board-of-directors-meeting-20190415.md
-        - "Board of Directors Meeting 20190422 Special Meeting": board-of-directors-meetings/board-of-directors-meeting-20190422-special-meeting.md
-        - "Board of Directors Meeting 20190506 Special Meeting": board-of-directors-meetings/board-of-directors-meeting-20190506-special-meeting.md
-        - "Board of Directors Meeting 20190508 emergency meeting": board-of-directors-meetings/board-of-directors-meeting-20190508-emergency-meeting.md
-        - "Board of Directors Meeting 20190510 Special Meeting": board-of-directors-meetings/board-of-directors-meeting-20190510-special-meeting.md
-        - "Board of Directors Meeting 20190512 Special Meeting": board-of-directors-meetings/board-of-directors-meeting-20190512-special-meeting.md
-        - "Board of Directors Meeting 20190515 Special Meeting": board-of-directors-meetings/board-of-directors-meeting-20190515-special-meeting.md
-        - "Board of Directors Meeting 20190520": board-of-directors-meetings/board-of-directors-meeting-20190520.md
-        - "Board of Directors Meeting 20190523 Special Meeting": board-of-directors-meetings/board-of-directors-meeting-20190523-special-meeting.md
-        - "Board of Directors Meeting 20190527 Special Meeting": board-of-directors-meetings/board-of-directors-meeting-20190527-special-meeting.md
-        - "Board of Directors Meeting 20190622": board-of-directors-meetings/board-of-directors-meeting-20190622.md
-        - "Board of Directors Meeting 20190622 Special Meeting": board-of-directors-meetings/board-of-directors-meeting-20190622-special-meeting.md
-        - "Board of Directors Meeting 20190706 Special Meeting": board-of-directors-meetings/board-of-directors-meeting-20190706-special-meeting.md
-        - "Board of Directors Meeting 20190710 Special Meeting": board-of-directors-meetings/board-of-directors-meeting-20190710-special-meeting.md
-        - "Board of Directors Meeting 20190713 Special Meeting": board-of-directors-meetings/board-of-directors-meeting-20190713-special-meeting.md
-        - "Board of Directors Meeting 20190722 Special Meeting": board-of-directors-meetings/board-of-directors-meeting-20190722-special-meeting.md
-        - "Board of Directors Meeting 20190724": board-of-directors-meetings/board-of-directors-meeting-20190724.md
-        - "Board of Directors Meeting 20190724 Special Meeting": board-of-directors-meetings/board-of-directors-meeting-20190724-special-meeting.md
-        - "Board of Directors Meeting 20190727 Special Meeting": board-of-directors-meetings/board-of-directors-meeting-20190727-special-meeting.md
-        - "Board of Directors Meeting 20190810 Special Meeting": board-of-directors-meetings/board-of-directors-meeting-20190810-special-meeting.md
-        - "Board of Directors Meeting 20190907 Special Meeting": board-of-directors-meetings/board-of-directors-meeting-20190907-special-meeting.md
-        - "Board of Directors Meeting 20190908": board-of-directors-meetings/board-of-directors-meeting-20190908.md
-        - "Board of Directors Meeting 20190929 Special Meeting": board-of-directors-meetings/board-of-directors-meeting-20190929-special-meeting.md
-        - "Board of Directors Meeting 20191005 Special Meeting": board-of-directors-meetings/board-of-directors-meeting-20191005-special-meeting.md
-        - "Board of Directors Meeting 20191013": board-of-directors-meetings/board-of-directors-meeting-20191013.md
-        - "Board of Directors Meeting 20191103 Special Meeting": board-of-directors-meetings/board-of-directors-meeting-20191103-special-meeting.md
-        - "Board of Directors Meeting 20191116 Special Meeting": board-of-directors-meetings/board-of-directors-meeting-20191116-special-meeting.md
-        - "Board of Directors Meeting 20191117": board-of-directors-meetings/board-of-directors-meeting-20191117.md
-        - "Board of Directors Meeting 20191214 Special Meeting": board-of-directors-meetings/board-of-directors-meeting-20191214-special-meeting.md
-        - "Board of Directors Meeting 20191215": board-of-directors-meetings/board-of-directors-meeting-20191215.md
-        - "Board of Directors Meeting 20200102 Special Meeting": board-of-directors-meetings/board-of-directors-meeting-20200102-special-meeting.md
-        - "Board of Directors Meeting 20200112": board-of-directors-meetings/board-of-directors-meeting-20200112.md
-        - "Board of Directors Meeting 20200122 Special Meeting": board-of-directors-meetings/board-of-directors-meeting-20200122-special-meeting.md
-        - "Board of Directors Meeting 20200216": board-of-directors-meetings/board-of-directors-meeting-20200216.md
-        - "Board of Directors Meeting 20200216 Special Meeting": board-of-directors-meetings/board-of-directors-meeting-20200216-special-meeting.md
-        - "Board of Directors Meeting 20200220 Special Meeting": board-of-directors-meetings/board-of-directors-meeting-20200220-special-meeting.md
-        - "Board of Directors Meeting 20200225 Special Meeting": board-of-directors-meetings/board-of-directors-meeting-20200225-special-meeting.md
-        - "Board of Directors Meeting 20200226 Special Meeting": board-of-directors-meetings/board-of-directors-meeting-20200226-special-meeting.md
-        - "Board of Directors Meeting 20200301 Special Meeting": board-of-directors-meetings/board-of-directors-meeting-20200301-special-meeting.md
-        - "Board of Directors Meeting 20200315 Special Meeting": board-of-directors-meetings/board-of-directors-meeting-20200315-special-meeting.md
-        - "Board of Directors Meeting 20200316 Special Meeting": board-of-directors-meetings/board-of-directors-meeting-20200316-special-meeting.md
-        - "Board of Directors Meeting 20200322": board-of-directors-meetings/board-of-directors-meeting-20200322.md
-        - "Board of Directors Meeting 20200326 Special Meeting": board-of-directors-meetings/board-of-directors-meeting-20200326-special-meeting.md
-        - "Board of Directors Meeting 20200514 Special Meeting": board-of-directors-meetings/board-of-directors-meeting-20200514-special-meeting.md
-        - "Board of Directors Meeting 20200612 Special Meeting": board-of-directors-meetings/board-of-directors-meeting-20200612-special-meeting.md
-        - "Board of Directors Meeting 20200702 Special Meeting": board-of-directors-meetings/board-of-directors-meeting-20200702-special-meeting.md
-        - "Board of Directors Meeting 20200709 Special Meeting": board-of-directors-meetings/board-of-directors-meeting-20200709-special-meeting.md
-        - "Board of Directors Meeting 20200715 Special Meeting": board-of-directors-meetings/board-of-directors-meeting-20200715-special-meeting.md
-        - "Board of Directors Meeting 20200806": board-of-directors-meetings/board-of-directors-meeting-20200806.md
-        - "Board of Directors Meeting 20200910": board-of-directors-meetings/board-of-directors-meeting-20200910.md
-        - "Board of Directors Meeting 20200917 Special Meeting": board-of-directors-meetings/board-of-directors-meeting-20200917-special-meeting.md
-        - "Board of Directors Meeting 20201105": board-of-directors-meetings/board-of-directors-meeting-20201105.md
-        - "Board of Directors Meeting 20201210": board-of-directors-meetings/board-of-directors-meeting-20201210.md
+        - "2020":
+          - "Board of Directors Meeting 20200102 Special Meeting": board-of-directors-meetings/board-of-directors-meeting-20200102-special-meeting.md
+          - "Board of Directors Meeting 20200112": board-of-directors-meetings/board-of-directors-meeting-20200112.md
+          - "Board of Directors Meeting 20200122 Special Meeting": board-of-directors-meetings/board-of-directors-meeting-20200122-special-meeting.md
+          - "Board of Directors Meeting 20200216": board-of-directors-meetings/board-of-directors-meeting-20200216.md
+          - "Board of Directors Meeting 20200216 Special Meeting": board-of-directors-meetings/board-of-directors-meeting-20200216-special-meeting.md
+          - "Board of Directors Meeting 20200220 Special Meeting": board-of-directors-meetings/board-of-directors-meeting-20200220-special-meeting.md
+          - "Board of Directors Meeting 20200225 Special Meeting": board-of-directors-meetings/board-of-directors-meeting-20200225-special-meeting.md
+          - "Board of Directors Meeting 20200226 Special Meeting": board-of-directors-meetings/board-of-directors-meeting-20200226-special-meeting.md
+          - "Board of Directors Meeting 20200301 Special Meeting": board-of-directors-meetings/board-of-directors-meeting-20200301-special-meeting.md
+          - "Board of Directors Meeting 20200315 Special Meeting": board-of-directors-meetings/board-of-directors-meeting-20200315-special-meeting.md
+          - "Board of Directors Meeting 20200316 Special Meeting": board-of-directors-meetings/board-of-directors-meeting-20200316-special-meeting.md
+          - "Board of Directors Meeting 20200322": board-of-directors-meetings/board-of-directors-meeting-20200322.md
+          - "Board of Directors Meeting 20200326 Special Meeting": board-of-directors-meetings/board-of-directors-meeting-20200326-special-meeting.md
+          - "Board of Directors Meeting 20200514 Special Meeting": board-of-directors-meetings/board-of-directors-meeting-20200514-special-meeting.md
+          - "Board of Directors Meeting 20200612 Special Meeting": board-of-directors-meetings/board-of-directors-meeting-20200612-special-meeting.md
+          - "Board of Directors Meeting 20200702 Special Meeting": board-of-directors-meetings/board-of-directors-meeting-20200702-special-meeting.md
+          - "Board of Directors Meeting 20200709 Special Meeting": board-of-directors-meetings/board-of-directors-meeting-20200709-special-meeting.md
+          - "Board of Directors Meeting 20200715 Special Meeting": board-of-directors-meetings/board-of-directors-meeting-20200715-special-meeting.md
+          - "Board of Directors Meeting 20200806": board-of-directors-meetings/board-of-directors-meeting-20200806.md
+          - "Board of Directors Meeting 20200910": board-of-directors-meetings/board-of-directors-meeting-20200910.md
+          - "Board of Directors Meeting 20200917 Special Meeting": board-of-directors-meetings/board-of-directors-meeting-20200917-special-meeting.md
+          - "Board of Directors Meeting 20201105": board-of-directors-meetings/board-of-directors-meeting-20201105.md
+          - "Board of Directors Meeting 20201210": board-of-directors-meetings/board-of-directors-meeting-20201210.md
+        - "2019":
+          - "Board of Directors Meeting 20190121": board-of-directors-meetings/board-of-directors-meeting-20190121.md
+          - "Board of Directors Meeting 20190128 Special Meeting": board-of-directors-meetings/board-of-directors-meeting-20190128-special-meeting.md
+          - "Board of Directors Meeting 20190218": board-of-directors-meetings/board-of-directors-meeting-20190218.md
+          - "Board of Directors Meeting 20190226 Special Meeting": board-of-directors-meetings/board-of-directors-meeting-20190226-special-meeting.md
+          - "Board of Directors Meeting 20190304 Special Meeting": board-of-directors-meetings/board-of-directors-meeting-20190304-special-meeting.md
+          - "Board of Directors Meeting 20190311 Special Meeting": board-of-directors-meetings/board-of-directors-meeting-20190311-special-meeting.md
+          - "Board of Directors Meeting 20190318": board-of-directors-meetings/board-of-directors-meeting-20190318.md
+          - "Board of Directors Meeting 20190325 Special Meeting": board-of-directors-meetings/board-of-directors-meeting-20190325-special-meeting.md
+          - "Board of Directors Meeting 20190401 Special Meeting": board-of-directors-meetings/board-of-directors-meeting-20190401-special-meeting.md
+          - "Board of Directors Meeting 20190408 Special Meeting": board-of-directors-meetings/board-of-directors-meeting-20190408-special-meeting.md
+          - "Board of Directors Meeting 20190415": board-of-directors-meetings/board-of-directors-meeting-20190415.md
+          - "Board of Directors Meeting 20190422 Special Meeting": board-of-directors-meetings/board-of-directors-meeting-20190422-special-meeting.md
+          - "Board of Directors Meeting 20190506 Special Meeting": board-of-directors-meetings/board-of-directors-meeting-20190506-special-meeting.md
+          - "Board of Directors Meeting 20190508 emergency meeting": board-of-directors-meetings/board-of-directors-meeting-20190508-emergency-meeting.md
+          - "Board of Directors Meeting 20190510 Special Meeting": board-of-directors-meetings/board-of-directors-meeting-20190510-special-meeting.md
+          - "Board of Directors Meeting 20190512 Special Meeting": board-of-directors-meetings/board-of-directors-meeting-20190512-special-meeting.md
+          - "Board of Directors Meeting 20190515 Special Meeting": board-of-directors-meetings/board-of-directors-meeting-20190515-special-meeting.md
+          - "Board of Directors Meeting 20190520": board-of-directors-meetings/board-of-directors-meeting-20190520.md
+          - "Board of Directors Meeting 20190523 Special Meeting": board-of-directors-meetings/board-of-directors-meeting-20190523-special-meeting.md
+          - "Board of Directors Meeting 20190527 Special Meeting": board-of-directors-meetings/board-of-directors-meeting-20190527-special-meeting.md
+          - "Board of Directors Meeting 20190622": board-of-directors-meetings/board-of-directors-meeting-20190622.md
+          - "Board of Directors Meeting 20190622 Special Meeting": board-of-directors-meetings/board-of-directors-meeting-20190622-special-meeting.md
+          - "Board of Directors Meeting 20190706 Special Meeting": board-of-directors-meetings/board-of-directors-meeting-20190706-special-meeting.md
+          - "Board of Directors Meeting 20190710 Special Meeting": board-of-directors-meetings/board-of-directors-meeting-20190710-special-meeting.md
+          - "Board of Directors Meeting 20190713 Special Meeting": board-of-directors-meetings/board-of-directors-meeting-20190713-special-meeting.md
+          - "Board of Directors Meeting 20190722 Special Meeting": board-of-directors-meetings/board-of-directors-meeting-20190722-special-meeting.md
+          - "Board of Directors Meeting 20190724": board-of-directors-meetings/board-of-directors-meeting-20190724.md
+          - "Board of Directors Meeting 20190724 Special Meeting": board-of-directors-meetings/board-of-directors-meeting-20190724-special-meeting.md
+          - "Board of Directors Meeting 20190727 Special Meeting": board-of-directors-meetings/board-of-directors-meeting-20190727-special-meeting.md
+          - "Board of Directors Meeting 20190810 Special Meeting": board-of-directors-meetings/board-of-directors-meeting-20190810-special-meeting.md
+          - "Board of Directors Meeting 20190907 Special Meeting": board-of-directors-meetings/board-of-directors-meeting-20190907-special-meeting.md
+          - "Board of Directors Meeting 20190908": board-of-directors-meetings/board-of-directors-meeting-20190908.md
+          - "Board of Directors Meeting 20190929 Special Meeting": board-of-directors-meetings/board-of-directors-meeting-20190929-special-meeting.md
+          - "Board of Directors Meeting 20191005 Special Meeting": board-of-directors-meetings/board-of-directors-meeting-20191005-special-meeting.md
+          - "Board of Directors Meeting 20191013": board-of-directors-meetings/board-of-directors-meeting-20191013.md
+          - "Board of Directors Meeting 20191103 Special Meeting": board-of-directors-meetings/board-of-directors-meeting-20191103-special-meeting.md
+          - "Board of Directors Meeting 20191116 Special Meeting": board-of-directors-meetings/board-of-directors-meeting-20191116-special-meeting.md
+          - "Board of Directors Meeting 20191117": board-of-directors-meetings/board-of-directors-meeting-20191117.md
+          - "Board of Directors Meeting 20191214 Special Meeting": board-of-directors-meetings/board-of-directors-meeting-20191214-special-meeting.md
+          - "Board of Directors Meeting 20191215": board-of-directors-meetings/board-of-directors-meeting-20191215.md
       - "Ceramics Committee Meeting":
-        - "Ceramics Committee Meeting 20190605": ceramics-committee-meeting/ceramics-committee-meeting-20190605.md
-        - "Ceramics Committee Meeting 20191106": ceramics-committee-meeting/ceramics-committee-meeting-20191106.md
-        - "Ceramics Committee Meeting 20201110": ceramics-committee-meeting/ceramics-committee-meeting-20201110.md
-        - "Ceramics Committee Meeting 20201201": ceramics-committee-meeting/ceramics-committee-meeting-20201201.md
-        - "Ceramics Committee Meeting 20210608": ceramics-committee-meeting/ceramics-committee-meeting-20210608.md
-        - "Ceramics committee meeting 20210803": ceramics-committee-meeting/ceramics-committee-meeting-20210803.md
-        - "Ceramics Committee Meeting 20210907": ceramics-committee-meeting/ceramics-committee-meeting-20210907.md
-        - "Ceramics Committee Meeting 2021110221": ceramics-committee-meeting/ceramics-committee-meeting-2021110221.md
         - "Ceramics Committee Meeting 4-6-21": ceramics-committee-meeting/ceramics-committee-meeting-4-6-21.md
         - "Ceramics Committee Meeting 5-4-21": ceramics-committee-meeting/ceramics-committee-meeting-5-4-21.md
+        - "Meeting Minutes":
+          - "2021":
+            - "Ceramics Committee Meeting 20210608": ceramics-committee-meeting/ceramics-committee-meeting-20210608.md
+            - "Ceramics committee meeting 20210803": ceramics-committee-meeting/ceramics-committee-meeting-20210803.md
+            - "Ceramics Committee Meeting 20210907": ceramics-committee-meeting/ceramics-committee-meeting-20210907.md
+            - "Ceramics Committee Meeting 2021110221": ceramics-committee-meeting/ceramics-committee-meeting-2021110221.md
+          - "2020":
+            - "Ceramics Committee Meeting 20201110": ceramics-committee-meeting/ceramics-committee-meeting-20201110.md
+            - "Ceramics Committee Meeting 20201201": ceramics-committee-meeting/ceramics-committee-meeting-20201201.md
+          - "2019":
+            - "Ceramics Committee Meeting 20190605": ceramics-committee-meeting/ceramics-committee-meeting-20190605.md
+            - "Ceramics Committee Meeting 20191106": ceramics-committee-meeting/ceramics-committee-meeting-20191106.md
       - "Committee Meetings":
         - "Machine Shop Committee Meeting 20210424": committee-meetings/machine-shop-committee-meeting-20210424.md
       - "Computer Committee Meeting":
@@ -1088,67 +1189,84 @@ nav:
         - "Computer Committee Meeting 20181121": computer-committee-meetings/computer-committee-meeting-20181121.md
       - "Infrastructure Meetings":
         - "Infrastructure Committee Meeting (template)": infrastructure-meetings/infrastructure-committee-meeting-template.md
-        - "Infrastructure Committee Meeting 20190508": infrastructure-meetings/infrastructure-committee-meeting-20190508.md
+        - "Meeting Minutes":
+          - "2019":
+            - "Infrastructure Committee Meeting 20190508": infrastructure-meetings/infrastructure-committee-meeting-20190508.md
       - "Meeting":
         - "GlassWorks Comittee Meeting 20200711": meeting/glassworks-comittee-meeting-20200711.md
       - "Meetings":
-        - "Jewelry Committee Meeting 20211012": meetings/jewelry-committee-meeting-20211012.md
-        - "Regular Member Meeting 20180608": meetings/regular-member-meeting-20180608.md
+        - "2021":
+          - "Jewelry Committee Meeting 20211012": meetings/jewelry-committee-meeting-20211012.md
+        - "2018":
+          - "Regular Member Meeting 20180608": meetings/regular-member-meeting-20180608.md
       - "Member Meeting":
-        - "Annual Member Meeting 20190510": member-meeting/annual-member-meeting-20190510.md
-        - "Annual Member Meeting 20200717": member-meeting/annual-member-meeting-20200717.md
+        - "2020":
+          - "Annual Member Meeting 20200717": member-meeting/annual-member-meeting-20200717.md
+        - "2019":
+          - "Annual Member Meeting 20190510": member-meeting/annual-member-meeting-20190510.md
       - "Metal Shop Meetings":
-        - "Metal Shop Committee Meeting 20191005": metal-shop-meetings/metal-shop-committee-meeting-20191005.md
-        - "Metal Shop Committee Meeting 20191102": metal-shop-meetings/metal-shop-committee-meeting-20191102.md
-        - "Metal Shop Committee meeting 20191207": metal-shop-meetings/metal-shop-committee-meeting-20191207.md
-        - "Metal Shop Committee Meeting 20200104": metal-shop-meetings/metal-shop-committee-meeting-20200104.md
-        - "Metal Shop Committee Meeting 20200201": metal-shop-meetings/metal-shop-committee-meeting-20200201.md
-        - "Metal Shop Committee Meeting 20200307": metal-shop-meetings/metal-shop-committee-meeting-20200307.md
-        - "Metal Shop Committee Meeting 20200704": metal-shop-meetings/metal-shop-committee-meeting-20200704.md
-        - "Metal Shop Committee Meeting 20200801": metal-shop-meetings/metal-shop-committee-meeting-20200801.md
-        - "Metal Shop Committee Meeting 20200905": metal-shop-meetings/metal-shop-committee-meeting-20200905.md
-        - "Metal Shop Committee Meeting 20201003": metal-shop-meetings/metal-shop-committee-meeting-20201003.md
-        - "Metal Shop Committee Meeting 20201107": metal-shop-meetings/metal-shop-committee-meeting-20201107.md
-        - "Metal Shop Committee Meeting 20201205": metal-shop-meetings/metal-shop-committee-meeting-20201205.md
-        - "Metal Shop Committee Meeting 20210403": metal-shop-meetings/metal-shop-committee-meeting-20210403.md
-        - "Metal Shop Committee Meeting 20210501": metal-shop-meetings/metal-shop-committee-meeting-20210501.md
-        - "Metal Shop Committee Meeting 20210605": metal-shop-meetings/metal-shop-committee-meeting-20210605.md
-        - "Metal Shop Committee Meeting 20210710": metal-shop-meetings/metal-shop-committee-meeting-20210710.md
-        - "Metal Shop Meeting 20190302": metal-shop-meetings/metal-shop-meeting-20190302.md
+        - "2021":
+          - "Metal Shop Committee Meeting 20210403": metal-shop-meetings/metal-shop-committee-meeting-20210403.md
+          - "Metal Shop Committee Meeting 20210501": metal-shop-meetings/metal-shop-committee-meeting-20210501.md
+          - "Metal Shop Committee Meeting 20210605": metal-shop-meetings/metal-shop-committee-meeting-20210605.md
+          - "Metal Shop Committee Meeting 20210710": metal-shop-meetings/metal-shop-committee-meeting-20210710.md
+        - "2020":
+          - "Metal Shop Committee Meeting 20200104": metal-shop-meetings/metal-shop-committee-meeting-20200104.md
+          - "Metal Shop Committee Meeting 20200201": metal-shop-meetings/metal-shop-committee-meeting-20200201.md
+          - "Metal Shop Committee Meeting 20200307": metal-shop-meetings/metal-shop-committee-meeting-20200307.md
+          - "Metal Shop Committee Meeting 20200704": metal-shop-meetings/metal-shop-committee-meeting-20200704.md
+          - "Metal Shop Committee Meeting 20200801": metal-shop-meetings/metal-shop-committee-meeting-20200801.md
+          - "Metal Shop Committee Meeting 20200905": metal-shop-meetings/metal-shop-committee-meeting-20200905.md
+          - "Metal Shop Committee Meeting 20201003": metal-shop-meetings/metal-shop-committee-meeting-20201003.md
+          - "Metal Shop Committee Meeting 20201107": metal-shop-meetings/metal-shop-committee-meeting-20201107.md
+          - "Metal Shop Committee Meeting 20201205": metal-shop-meetings/metal-shop-committee-meeting-20201205.md
+        - "2019":
+          - "Metal Shop Committee Meeting 20191005": metal-shop-meetings/metal-shop-committee-meeting-20191005.md
+          - "Metal Shop Committee Meeting 20191102": metal-shop-meetings/metal-shop-committee-meeting-20191102.md
+          - "Metal Shop Committee meeting 20191207": metal-shop-meetings/metal-shop-committee-meeting-20191207.md
+          - "Metal Shop Meeting 20190302": metal-shop-meetings/metal-shop-meeting-20190302.md
       - "Monthly Committee Meeting Minutes":
         - "3D Fabrication Committee Meeting": monthly-committee-meeting-minutes/3d-fabrication-committee-meeting.md
         - "3D Fabrication Committee Meeting 11/3/18": monthly-committee-meeting-minutes/3d-fabrication-committee-meeting-11-3-18.md
-        - "Ceramics Commitee Meeting 20200805": monthly-committee-meeting-minutes/ceramics-commitee-meeting-20200805.md
-        - "Ceramics Committee Meeting 20200107": monthly-committee-meeting-minutes/ceramics-committee-meeting-20200107.md
-        - "Ceramics Committee Meeting 20200304": monthly-committee-meeting-minutes/ceramics-committee-meeting-20200304.md
-        - "Ceramics Committee Meeting 20200701": monthly-committee-meeting-minutes/ceramics-committee-meeting-20200701.md
-        - "Ceramics Committee Meeting 20200719": monthly-committee-meeting-minutes/ceramics-committee-meeting-20200719.md
-        - "Ceramics Committee Meeting 20200902": monthly-committee-meeting-minutes/ceramics-committee-meeting-20200902.md
-        - "Ceramics Committee Meeting 20201006": monthly-committee-meeting-minutes/ceramics-committee-meeting-20201006.md
-        - "Ceramics Committee Meeting 20210105": monthly-committee-meeting-minutes/ceramics-committee-meeting-20210105.md
-        - "Ceramics Committee Meeting 20210202": monthly-committee-meeting-minutes/ceramics-committee-meeting-20210202.md
         - "Ceramics Committee Meeting 3-3-21": monthly-committee-meeting-minutes/ceramics-committee-meeting-3-3-21.md
+        - "Meeting Minutes":
+          - "2021":
+            - "Ceramics Committee Meeting 20210105": monthly-committee-meeting-minutes/ceramics-committee-meeting-20210105.md
+            - "Ceramics Committee Meeting 20210202": monthly-committee-meeting-minutes/ceramics-committee-meeting-20210202.md
+          - "2020":
+            - "Ceramics Commitee Meeting 20200805": monthly-committee-meeting-minutes/ceramics-commitee-meeting-20200805.md
+            - "Ceramics Committee Meeting 20200107": monthly-committee-meeting-minutes/ceramics-committee-meeting-20200107.md
+            - "Ceramics Committee Meeting 20200304": monthly-committee-meeting-minutes/ceramics-committee-meeting-20200304.md
+            - "Ceramics Committee Meeting 20200701": monthly-committee-meeting-minutes/ceramics-committee-meeting-20200701.md
+            - "Ceramics Committee Meeting 20200719": monthly-committee-meeting-minutes/ceramics-committee-meeting-20200719.md
+            - "Ceramics Committee Meeting 20200902": monthly-committee-meeting-minutes/ceramics-committee-meeting-20200902.md
+            - "Ceramics Committee Meeting 20201006": monthly-committee-meeting-minutes/ceramics-committee-meeting-20201006.md
       - "Resin SIG Meetings":
         - "Resin Meeting Minutes 1/18/19": resin-sig-meetings/resin-meeting-minutes-1-18-19.md
       - "Software Development Meetings":
-        - "Computer Committee Meeting 20180622": software-development-meetings/computer-committee-meeting-20180622.md
-        - "Computer Committee Meeting 20180720": software-development-meetings/computer-committee-meeting-20180720.md
-        - "Software Development Committee Meeting 20171205": software-development-meetings/software-development-committee-meeting-20171205.md
+        - "2018":
+          - "Computer Committee Meeting 20180622": software-development-meetings/computer-committee-meeting-20180622.md
+          - "Computer Committee Meeting 20180720": software-development-meetings/computer-committee-meeting-20180720.md
+        - "2017":
+          - "Software Development Committee Meeting 20171205": software-development-meetings/software-development-committee-meeting-20171205.md
       - "Tabletop Gaming SIG Meetings":
         - "Tabletop Gaming Meeting Minutes 10/15/19": tabletop-gaming-sig-meetings/tabletop-gaming-meeting-minutes-10-15-19.md
         - "Tabletop Gaming Meeting Minutes 8/20/19": tabletop-gaming-sig-meetings/tabletop-gaming-meeting-minutes-8-20-19.md
         - "Tabletop Gaming Meeting Minutes 9/17/19": tabletop-gaming-sig-meetings/tabletop-gaming-meeting-minutes-9-17-19.md
       - "Woodshop Committee Meetings":
-        - "Woodshop Committee Meeting 20190328": woodshop-committee-meetings/woodshop-committee-meeting-20190328.md
-        - "Woodshop Committee Meeting 20190824": woodshop-committee-meetings/woodshop-committee-meeting-20190824.md
-        - "Woodshop Committee Meeting 20190921": woodshop-committee-meetings/woodshop-committee-meeting-20190921.md
-        - "Woodshop Committee Meeting 20200307": woodshop-committee-meetings/woodshop-committee-meeting-20200307.md
-        - "Woodshop Committee Meeting 20200712": woodshop-committee-meetings/woodshop-committee-meeting-20200712.md
-        - "Woodshop Committee Meeting 20200815": woodshop-committee-meetings/woodshop-committee-meeting-20200815.md
-        - "Woodshop Committee Meeting 20201003": woodshop-committee-meetings/woodshop-committee-meeting-20201003.md
-        - "Woodshop Committee Meeting 20210116": woodshop-committee-meetings/woodshop-committee-meeting-20210116.md
-        - "Woodshop Committee Meeting 20210522": woodshop-committee-meetings/woodshop-committee-meeting-20210522.md
-        - "Woodshop Committee Meeting 20210626": woodshop-committee-meetings/woodshop-committee-meeting-20210626.md
+        - "2021":
+          - "Woodshop Committee Meeting 20210116": woodshop-committee-meetings/woodshop-committee-meeting-20210116.md
+          - "Woodshop Committee Meeting 20210522": woodshop-committee-meetings/woodshop-committee-meeting-20210522.md
+          - "Woodshop Committee Meeting 20210626": woodshop-committee-meetings/woodshop-committee-meeting-20210626.md
+        - "2020":
+          - "Woodshop Committee Meeting 20200307": woodshop-committee-meetings/woodshop-committee-meeting-20200307.md
+          - "Woodshop Committee Meeting 20200712": woodshop-committee-meetings/woodshop-committee-meeting-20200712.md
+          - "Woodshop Committee Meeting 20200815": woodshop-committee-meetings/woodshop-committee-meeting-20200815.md
+          - "Woodshop Committee Meeting 20201003": woodshop-committee-meetings/woodshop-committee-meeting-20201003.md
+        - "2019":
+          - "Woodshop Committee Meeting 20190328": woodshop-committee-meetings/woodshop-committee-meeting-20190328.md
+          - "Woodshop Committee Meeting 20190824": woodshop-committee-meetings/woodshop-committee-meeting-20190824.md
+          - "Woodshop Committee Meeting 20190921": woodshop-committee-meetings/woodshop-committee-meeting-20190921.md
     - "Meetings by Year":
       - "2023 Meetings":
         - "Ceramics Committee Meeting 20230103": 2023-meetings/ceramics-committee-meeting-20230103.md
@@ -1508,86 +1626,120 @@ nav:
         - "Meeting 20101230": 2010-meetings/meeting-20101230.md
     - "Meetings by Month":
       - "January Meetings":
-        - "3D Fabrication Committee Meeting 20210130": january-meetings/3d-fabrication-committee-meeting-20210130.md
-        - "Computer Committee Meeting 20191016": january-meetings/computer-committee-meeting-20191016.md
-        - "Computer Committee Meeting 20200129": january-meetings/computer-committee-meeting-20200129.md
-        - "Computer Committee Meeting 20200226": january-meetings/computer-committee-meeting-20200226.md
-        - "Creative arts committee meeting 20210111": january-meetings/creative-arts-committee-meeting-20210111.md
-        - "Regular Member Meeting 20180118": january-meetings/regular-member-meeting-20180118.md
-        - "Regular Member Meeting 20180308": january-meetings/regular-member-meeting-20180308.md
-        - "Regular Member Meeting 20180412": january-meetings/regular-member-meeting-20180412.md
-        - "Regular Member Meeting 20180511": january-meetings/regular-member-meeting-20180511.md
-        - "Woodshop Committee Meeting 20190129": january-meetings/woodshop-committee-meeting-20190129.md
+        - "2021":
+          - "3D Fabrication Committee Meeting 20210130": january-meetings/3d-fabrication-committee-meeting-20210130.md
+          - "Creative arts committee meeting 20210111": january-meetings/creative-arts-committee-meeting-20210111.md
+        - "2020":
+          - "Computer Committee Meeting 20200129": january-meetings/computer-committee-meeting-20200129.md
+          - "Computer Committee Meeting 20200226": january-meetings/computer-committee-meeting-20200226.md
+        - "2019":
+          - "Computer Committee Meeting 20191016": january-meetings/computer-committee-meeting-20191016.md
+          - "Woodshop Committee Meeting 20190129": january-meetings/woodshop-committee-meeting-20190129.md
+        - "2018":
+          - "Regular Member Meeting 20180118": january-meetings/regular-member-meeting-20180118.md
+          - "Regular Member Meeting 20180308": january-meetings/regular-member-meeting-20180308.md
+          - "Regular Member Meeting 20180412": january-meetings/regular-member-meeting-20180412.md
+          - "Regular Member Meeting 20180511": january-meetings/regular-member-meeting-20180511.md
       - "February Meetings":
-        - "Creative arts committee meeting 20210208": february-meetings/creative-arts-committee-meeting-20210208.md
-        - "Creative arts committee meeting 20210308": february-meetings/creative-arts-committee-meeting-20210308.md
-        - "Creative Arts Committee meeting 20210412": february-meetings/creative-arts-committee-meeting-20210412.md
-        - "JSM Committee Meeting 20180221": february-meetings/jsm-committee-meeting-20180221.md
-        - "Printmaking Committee Meeting 20190215": february-meetings/printmaking-committee-meeting-20190215.md
-        - "Regular Member Meeting 20180208": february-meetings/regular-member-meeting-20180208.md
-        - "Regular member meeting 20190215": february-meetings/regular-member-meeting-20190215.md
-        - "Woodshop Committee Meeting 20160223": february-meetings/woodshop-committee-meeting-20160223.md
-        - "Woodshop Committee Meeting 20190228": february-meetings/woodshop-committee-meeting-20190228.md
+        - "2021":
+          - "Creative arts committee meeting 20210208": february-meetings/creative-arts-committee-meeting-20210208.md
+          - "Creative arts committee meeting 20210308": february-meetings/creative-arts-committee-meeting-20210308.md
+          - "Creative Arts Committee meeting 20210412": february-meetings/creative-arts-committee-meeting-20210412.md
+        - "2019":
+          - "Printmaking Committee Meeting 20190215": february-meetings/printmaking-committee-meeting-20190215.md
+          - "Regular member meeting 20190215": february-meetings/regular-member-meeting-20190215.md
+          - "Woodshop Committee Meeting 20190228": february-meetings/woodshop-committee-meeting-20190228.md
+        - "2018":
+          - "JSM Committee Meeting 20180221": february-meetings/jsm-committee-meeting-20180221.md
+          - "Regular Member Meeting 20180208": february-meetings/regular-member-meeting-20180208.md
+        - "2016":
+          - "Woodshop Committee Meeting 20160223": february-meetings/woodshop-committee-meeting-20160223.md
       - "March Meetings":
-        - "Computer Committee Meeting 20200325": march-meetings/computer-committee-meeting-20200325.md
-        - "Printmaking Committee Meeting 20190316": march-meetings/printmaking-committee-meeting-20190316.md
+        - "2020":
+          - "Computer Committee Meeting 20200325": march-meetings/computer-committee-meeting-20200325.md
+        - "2019":
+          - "Printmaking Committee Meeting 20190316": march-meetings/printmaking-committee-meeting-20190316.md
       - "April Meetings":
-        - "Computer Committee Meeting 20180411": april-meetings/computer-committee-meeting-20180411.md
-        - "Computer Committee Meeting 20180425": april-meetings/computer-committee-meeting-20180425.md
-        - "Computer Committee Meeting 20200429": april-meetings/computer-committee-meeting-20200429.md
-        - "Infrastructure Committee Meeting 20180420": april-meetings/infrastructure-committee-meeting-20180420.md
-        - "Printmaking Committee Meeting 20190420": april-meetings/printmaking-committee-meeting-20190420.md
-        - "Woodshop Committee Meeting 20160418": april-meetings/woodshop-committee-meeting-20160418.md
+        - "2020":
+          - "Computer Committee Meeting 20200429": april-meetings/computer-committee-meeting-20200429.md
+        - "2019":
+          - "Printmaking Committee Meeting 20190420": april-meetings/printmaking-committee-meeting-20190420.md
+        - "2018":
+          - "Computer Committee Meeting 20180411": april-meetings/computer-committee-meeting-20180411.md
+          - "Computer Committee Meeting 20180425": april-meetings/computer-committee-meeting-20180425.md
+          - "Infrastructure Committee Meeting 20180420": april-meetings/infrastructure-committee-meeting-20180420.md
+        - "2016":
+          - "Woodshop Committee Meeting 20160418": april-meetings/woodshop-committee-meeting-20160418.md
       - "May Meetings":
-        - "Computer Committee Meeting 20180509": may-meetings/computer-committee-meeting-20180509.md
-        - "Computer Committee Meeting 20200527": may-meetings/computer-committee-meeting-20200527.md
-        - "Infrastructure Committee Meeting 20180523": may-meetings/infrastructure-committee-meeting-20180523.md
-        - "JSM Committee Meeting 20180529": may-meetings/jsm-committee-meeting-20180529.md
-        - "Logistics Committee Meeting 20190505": may-meetings/logistics-committee-meeting-20190505.md
-        - "Logistics Committee Meeting 20190505 meeting notes": may-meetings/logistics-committee-meeting-20190505-meeting-notes.md
-        - "Logistics Committee Meeting 20190530": may-meetings/logistics-committee-meeting-20190530.md
-        - "Printmaking Committee Meeting 20190511": may-meetings/printmaking-committee-meeting-20190511.md
-        - "Printmaking Committee Meeting 20190518": may-meetings/printmaking-committee-meeting-20190518.md
-        - "Woodshop Committee Meeting 20160517": may-meetings/woodshop-committee-meeting-20160517.md
-        - "Woodshop Committee Meeting 20190518": may-meetings/woodshop-committee-meeting-20190518.md
+        - "2020":
+          - "Computer Committee Meeting 20200527": may-meetings/computer-committee-meeting-20200527.md
+        - "2019":
+          - "Logistics Committee Meeting 20190505": may-meetings/logistics-committee-meeting-20190505.md
+          - "Logistics Committee Meeting 20190505 meeting notes": may-meetings/logistics-committee-meeting-20190505-meeting-notes.md
+          - "Logistics Committee Meeting 20190530": may-meetings/logistics-committee-meeting-20190530.md
+          - "Printmaking Committee Meeting 20190511": may-meetings/printmaking-committee-meeting-20190511.md
+          - "Printmaking Committee Meeting 20190518": may-meetings/printmaking-committee-meeting-20190518.md
+          - "Woodshop Committee Meeting 20190518": may-meetings/woodshop-committee-meeting-20190518.md
+        - "2018":
+          - "Computer Committee Meeting 20180509": may-meetings/computer-committee-meeting-20180509.md
+          - "Infrastructure Committee Meeting 20180523": may-meetings/infrastructure-committee-meeting-20180523.md
+          - "JSM Committee Meeting 20180529": may-meetings/jsm-committee-meeting-20180529.md
+        - "2016":
+          - "Woodshop Committee Meeting 20160517": may-meetings/woodshop-committee-meeting-20160517.md
       - "June Meetings":
-        - "Computer Committee Meeting 20170717": june-meetings/computer-committee-meeting-20170717.md
-        - "Computer Committee Meeting 20190619": june-meetings/computer-committee-meeting-20190619.md
-        - "Computer Committee Meeting 20200624": june-meetings/computer-committee-meeting-20200624.md
-        - "Printmaking Committee Meeting 20180609": june-meetings/printmaking-committee-meeting-20180609.md
-        - "Printmaking Committee Meeting 20190515": june-meetings/printmaking-committee-meeting-20190515.md
-        - "Regular Member Meeting 20181012": june-meetings/regular-member-meeting-20181012.md
-        - "Wide Format Printer SIG 20190622": june-meetings/wide-format-printer-sig-20190622.md
+        - "2020":
+          - "Computer Committee Meeting 20200624": june-meetings/computer-committee-meeting-20200624.md
+        - "2019":
+          - "Computer Committee Meeting 20190619": june-meetings/computer-committee-meeting-20190619.md
+          - "Printmaking Committee Meeting 20190515": june-meetings/printmaking-committee-meeting-20190515.md
+          - "Wide Format Printer SIG 20190622": june-meetings/wide-format-printer-sig-20190622.md
+        - "2018":
+          - "Printmaking Committee Meeting 20180609": june-meetings/printmaking-committee-meeting-20180609.md
+          - "Regular Member Meeting 20181012": june-meetings/regular-member-meeting-20181012.md
+        - "2017":
+          - "Computer Committee Meeting 20170717": june-meetings/computer-committee-meeting-20170717.md
       - "July Meetings":
-        - "Computer Committee Meeting 20200729": july-meetings/computer-committee-meeting-20200729.md
-        - "JSM Committee Meeting 20180711": july-meetings/jsm-committee-meeting-20180711.md
-        - "Printmaking Committee Meeting 20180721": july-meetings/printmaking-committee-meeting-20180721.md
-        - "Regular Member Meeting 20180713": july-meetings/regular-member-meeting-20180713.md
+        - "2020":
+          - "Computer Committee Meeting 20200729": july-meetings/computer-committee-meeting-20200729.md
+        - "2018":
+          - "JSM Committee Meeting 20180711": july-meetings/jsm-committee-meeting-20180711.md
+          - "Printmaking Committee Meeting 20180721": july-meetings/printmaking-committee-meeting-20180721.md
+          - "Regular Member Meeting 20180713": july-meetings/regular-member-meeting-20180713.md
       - "August Meetings":
-        - "Computer Committee Meeting 20180905": august-meetings/computer-committee-meeting-20180905.md
-        - "JSM Committee Meeting 20180815": august-meetings/jsm-committee-meeting-20180815.md
-        - "Regular Member Meeting 20180810": august-meetings/regular-member-meeting-20180810.md
-        - "Software Development Committee Meeting 20190821": august-meetings/software-development-committee-meeting-20190821.md
+        - "2019":
+          - "Software Development Committee Meeting 20190821": august-meetings/software-development-committee-meeting-20190821.md
+        - "2018":
+          - "Computer Committee Meeting 20180905": august-meetings/computer-committee-meeting-20180905.md
+          - "JSM Committee Meeting 20180815": august-meetings/jsm-committee-meeting-20180815.md
+          - "Regular Member Meeting 20180810": august-meetings/regular-member-meeting-20180810.md
       - "September Meetings":
         - "Printmaking Committee Meeting 20180922": september-meetings/printmaking-committee-meeting-20180922.md
         - "Regular Member Meeting 20180914": september-meetings/regular-member-meeting-20180914.md
       - "October Meetings":
-        - "Computer Committee Meeting 20171027": october-meetings/computer-committee-meeting-20171027.md
-        - "Computer Committee Meeting 20181003": october-meetings/computer-committee-meeting-20181003.md
-        - "Computer Committee Meeting 20181024": october-meetings/computer-committee-meeting-20181024.md
-        - "Computer Committee Meeting 20190515": october-meetings/computer-committee-meeting-20190515.md
-        - "Hackerspace Meeting 20191030": october-meetings/hackerspace-meeting-20191030.md
-        - "JSM Committee Meeting 20181009": october-meetings/jsm-committee-meeting-20181009.md
-        - "Printmaking Committee Meeting 20181005": october-meetings/printmaking-committee-meeting-20181005.md
-        - "Woodshop Committee Meeting 20181025": october-meetings/woodshop-committee-meeting-20181025.md
+        - "2019":
+          - "Computer Committee Meeting 20190515": october-meetings/computer-committee-meeting-20190515.md
+          - "Hackerspace Meeting 20191030": october-meetings/hackerspace-meeting-20191030.md
+        - "2018":
+          - "Computer Committee Meeting 20181003": october-meetings/computer-committee-meeting-20181003.md
+          - "Computer Committee Meeting 20181024": october-meetings/computer-committee-meeting-20181024.md
+          - "JSM Committee Meeting 20181009": october-meetings/jsm-committee-meeting-20181009.md
+          - "Printmaking Committee Meeting 20181005": october-meetings/printmaking-committee-meeting-20181005.md
+          - "Woodshop Committee Meeting 20181025": october-meetings/woodshop-committee-meeting-20181025.md
+        - "2017":
+          - "Computer Committee Meeting 20171027": october-meetings/computer-committee-meeting-20171027.md
       - "November Meetings":
-        - "Computer Committee Meeting 20161111": november-meetings/computer-committee-meeting-20161111.md
-        - "Computer Committee Meeting 20171120": november-meetings/computer-committee-meeting-20171120.md
-        - "Woodshop Committee Meeting 20181105": november-meetings/woodshop-committee-meeting-20181105.md
+        - "2018":
+          - "Woodshop Committee Meeting 20181105": november-meetings/woodshop-committee-meeting-20181105.md
+        - "2017":
+          - "Computer Committee Meeting 20171120": november-meetings/computer-committee-meeting-20171120.md
+        - "2016":
+          - "Computer Committee Meeting 20161111": november-meetings/computer-committee-meeting-20161111.md
       - "December Meetings":
-        - "Computer Committee Meeting 20181205": december-meetings/computer-committee-meeting-20181205.md
-        - "Computer Committee Meeting 20181212": december-meetings/computer-committee-meeting-20181212.md
-        - "Hackerspace Meeting 20191230": december-meetings/hackerspace-meeting-20191230.md
+        - "2019":
+          - "Hackerspace Meeting 20191230": december-meetings/hackerspace-meeting-20191230.md
+        - "2018":
+          - "Computer Committee Meeting 20181205": december-meetings/computer-committee-meeting-20181205.md
+          - "Computer Committee Meeting 20181212": december-meetings/computer-committee-meeting-20181212.md
     - "Statements of Intent":
       - "2011 Statements of Intent":
         - "2011 Alyssa Pipe Statement of Intent": 2011-statements-of-intent/2011-alyssa-pipe-statement-of-intent.md
@@ -1716,17 +1868,22 @@ nav:
     - "Archive":
       - "2019 Statement of Intent Natcha Pradappet": archive/2019-statement-of-intent-natcha-pradappet.md
       - "About This Mediawiki": archive/about-this-mediawiki.md
-      - "Blacksmithing Committee Meeting 20190519": archive/blacksmithing-committee-meeting-20190519.md
-      - "Board of Directors Meeting 20190804 Special Meeting": archive/board-of-directors-meeting-20190804-special-meeting.md
-      - "Board of Directors Meeting 20190825": archive/board-of-directors-meeting-20190825.md
       - "Build-Out Status": archive/build-out-status.md
       - "Building Search Notes": archive/building-search-notes.md
-      - "Machine Shop Committee Meeting 20200125": archive/machine-shop-committee-meeting-20200125.md
       - "New Space Search 2011": archive/new-space-search-2011.md
       - "Questionnaire for Leasing Agents": archive/questionnaire-for-leasing-agents.md
       - "Reverse Engineering RFID Reader": archive/reverse-engineering-rfid-reader.md
-      - "Science Committee Meeting 20162704": archive/science-committee-meeting-20162704.md
-      - "Science.Biomedical subcommittee Meeting20150924": archive/science-biomedical-subcommittee-meeting20150924.md
+      - "Meeting Minutes":
+        - "2020":
+          - "Machine Shop Committee Meeting 20200125": archive/machine-shop-committee-meeting-20200125.md
+        - "2019":
+          - "Blacksmithing Committee Meeting 20190519": archive/blacksmithing-committee-meeting-20190519.md
+          - "Board of Directors Meeting 20190804 Special Meeting": archive/board-of-directors-meeting-20190804-special-meeting.md
+          - "Board of Directors Meeting 20190825": archive/board-of-directors-meeting-20190825.md
+        - "2016":
+          - "Science Committee Meeting 20162704": archive/science-committee-meeting-20162704.md
+        - "2015":
+          - "Science.Biomedical subcommittee Meeting20150924": archive/science-biomedical-subcommittee-meeting20150924.md
     - "Cleanup":
       - "Current Needs": cleanup/current-needs.md
       - "Member Projects": cleanup/member-projects.md
@@ -1748,7 +1905,6 @@ nav:
       - "GlassWorks Committee meetings 7/2/2018": delete/glassworks-committee-meetings-7-2-2018.md
       - "GlassWorks Committee meetings 8/6/2018": delete/glassworks-committee-meetings-8-6-2018.md
       - "GreeterBotRequirementsSpec": delete/greeterbotrequirementsspec.md
-      - "Https://dallasmakerspace.org/wiki/Board of Directors Meeting 20190520": delete/https-dallasmakerspace-org-wiki-board-of-directors-meeting-20190520.md
       - "Learning": delete/learning.md
       - "MakerNet": delete/makernet.md
       - "New page": delete/new-page.md
@@ -1756,9 +1912,13 @@ nav:
       - "Open House 2012": delete/open-house-2012.md
       - "Open House 2013": delete/open-house-2013.md
       - "Open House 2015": delete/open-house-2015.md
-      - "Public Relations Committee Meeting 201800823": delete/public-relations-committee-meeting-201800823.md
       - "Test Equipment/wishlist": delete/test-equipment-wishlist.md
       - "User Projects": delete/user-projects.md
+      - "Meeting Minutes":
+        - "2019":
+          - "Https://dallasmakerspace.org/wiki/Board of Directors Meeting 20190520": delete/https-dallasmakerspace-org-wiki-board-of-directors-meeting-20190520.md
+        - "2018":
+          - "Public Relations Committee Meeting 201800823": delete/public-relations-committee-meeting-201800823.md
     - "Draft":
       - "Events Calendar - Scheduling a Class": draft/events-calendar-scheduling-a-class.md
       - "History of Dallas Makerspace": draft/history-of-dallas-makerspace.md
@@ -1842,40 +2002,30 @@ nav:
       - "MultiCam CNC Router v1.0 Deprecated as of 07/04/21": pages-with-ignored-display-titles/multicam-cnc-router-v1-0-deprecated-as-of-07-04-21.md
     - "Templates":
       - "Board of Directors Meeting (Blank)": templates-category/board-of-directors-meeting-blank.md
-      - "Board of Directors Meeting 20201008": templates-category/board-of-directors-meeting-20201008.md
       - "Committee Meeting (Blank)": templates-category/committee-meeting-blank.md
       - "Regular Member Meeting (blank)": templates-category/regular-member-meeting-blank.md
       - "Test Equipment/Template": templates-category/test-equipment-template.md
+      - "Meeting Minutes":
+        - "2020":
+          - "Board of Directors Meeting 20201008": templates-category/board-of-directors-meeting-20201008.md
     - "Uncategorized":
       - "2019 Election Information": uncategorized/2019-election-information.md
       - "3d Fabrication Committee Meeting Blank": uncategorized/3d-fabrication-committee-meeting-blank.md
-      - "3D Fabrication Meeting 20190504": uncategorized/3d-fabrication-meeting-20190504.md
-      - "3D Fabrication Meeting 20190601": uncategorized/3d-fabrication-meeting-20190601.md
-      - "3D Fabrication Meeting 20190615": uncategorized/3d-fabrication-meeting-20190615.md
-      - "3D Fabrication Meeting 20191102": uncategorized/3d-fabrication-meeting-20191102.md
-      - "3D Fabrication Meeting 20200104": uncategorized/3d-fabrication-meeting-20200104.md
       - "Board of Directors Meeting 2018013": uncategorized/board-of-directors-meeting-2018013.md
-      - "Board of Directors Meeting 20190511 Special Meeting": uncategorized/board-of-directors-meeting-20190511-special-meeting.md
-      - "Board of Directors Meeting 20190520 Special Meeting": uncategorized/board-of-directors-meeting-20190520-special-meeting.md
       - "Bylaws Draft 2020": uncategorized/bylaws-draft-2020.md
       - "Bylaws Draft 2020 Take 2": uncategorized/bylaws-draft-2020-take-2.md
       - "Bylaws Draft 2020 Take 3": uncategorized/bylaws-draft-2020-take-3.md
       - "Bylaws Draft 2020 Take 4": uncategorized/bylaws-draft-2020-take-4.md
       - "Bylaws Work 2021": uncategorized/bylaws-work-2021.md
-      - "CA Sewing SIG Meeting 2020-02-04": uncategorized/ca-sewing-sig-meeting-2020-02-04.md
       - "Cancel membership": uncategorized/cancel-membership.md
-      - "Ceramics Committee Meeting 20211207": uncategorized/ceramics-committee-meeting-20211207.md
       - "CNC PCB Mill Training": uncategorized/cnc-pcb-mill-training.md
       - "Code of Conduct Proposal": uncategorized/code-of-conduct-proposal.md
       - "Code of Conduct Proposal/Draft": uncategorized/code-of-conduct-proposal-draft.md
       - "Code of Conduct Proposal/Draft 2": uncategorized/code-of-conduct-proposal-draft-2.md
-      - "Computer Committee Meeting 20200629": uncategorized/computer-committee-meeting-20200629.md
       - "Dewalt Table Saw": uncategorized/dewalt-table-saw.md
       - "Dichroish Class": uncategorized/dichroish-class.md
-      - "Digital Media Committee Meeting 20200728": uncategorized/digital-media-committee-meeting-20200728.md
       - "Digital Printing Resolution": uncategorized/digital-printing-resolution.md
       - "DMS Streaming Cart Proposal": uncategorized/dms-streaming-cart-proposal.md
-      - "Editing Board of Directors Meeting 20190510 Special Meeting": uncategorized/editing-board-of-directors-meeting-20190510-special-meeting.md
       - "Electronics Committee Meeting 01-08-2022": uncategorized/electronics-committee-meeting-01-08-2022.md
       - "Electronics Committee Meeting 02-12-2022": uncategorized/electronics-committee-meeting-02-12-2022.md
       - "Electronics Committee Meeting 03-26-2022": uncategorized/electronics-committee-meeting-03-26-2022.md
@@ -1885,28 +2035,13 @@ nav:
       - "Electronics Committee Meeting 09-25-2021": uncategorized/electronics-committee-meeting-09-25-2021.md
       - "Electronics Committee Meeting 11-06-2021": uncategorized/electronics-committee-meeting-11-06-2021.md
       - "Electronics Committee Meeting 12-12-2019": uncategorized/electronics-committee-meeting-12-12-2019.md
-      - "Electronics Committee Meeting 20190711": uncategorized/electronics-committee-meeting-20190711.md
       - "Electronics Committee Meeting Elections 07-16-2020": uncategorized/electronics-committee-meeting-elections-07-16-2020.md
       - "Elegoo Mars SLA Printer": uncategorized/elegoo-mars-sla-printer.md
       - "Events Calendar": uncategorized/events-calendar.md
       - "Expansion Team Mtng with BoD 07-27-2019": uncategorized/expansion-team-mtng-with-bod-07-27-2019.md
       - "Facebook CTF": uncategorized/facebook-ctf.md
-      - "GlassWorks 20202712": uncategorized/glassworks-20202712.md
       - "IRS Statement": uncategorized/irs-statement.md
       - "Jet Bandsaw": uncategorized/jet-bandsaw.md
-      - "Jewelry Committee Meeting 20200209": uncategorized/jewelry-committee-meeting-20200209.md
-      - "Jewelry Committee Meeting 20201013": uncategorized/jewelry-committee-meeting-20201013.md
-      - "Jewelry Committee Meeting 20210413": uncategorized/jewelry-committee-meeting-20210413.md
-      - "Jewelry Committee Meeting 20210713": uncategorized/jewelry-committee-meeting-20210713.md
-      - "Jewelry Committee Meeting 20220510": uncategorized/jewelry-committee-meeting-20220510.md
-      - "Jewelry Committee Meeting 20220614": uncategorized/jewelry-committee-meeting-20220614.md
-      - "Jewelry Committee Meeting 20220712": uncategorized/jewelry-committee-meeting-20220712.md
-      - "Jewelry Committee Meeting 20220809": uncategorized/jewelry-committee-meeting-20220809.md
-      - "Jewelry Committee Meeting 20230613": uncategorized/jewelry-committee-meeting-20230613.md
-      - "JSM Committee Meeting 20191008": uncategorized/jsm-committee-meeting-20191008.md
-      - "JSM Committee Meeting 20200811": uncategorized/jsm-committee-meeting-20200811.md
-      - "JSM Committee Meeting 20200908": uncategorized/jsm-committee-meeting-20200908.md
-      - "JSM Committee Metting 20191029": uncategorized/jsm-committee-metting-20191029.md
       - "Machine Shop Bridgeport Self Study": uncategorized/machine-shop-bridgeport-self-study.md
       - "Machine Shop Clausing Colchester Lathe Self Study": uncategorized/machine-shop-clausing-colchester-lathe-self-study.md
       - "Main Page": uncategorized/main-page.md
@@ -1914,7 +2049,6 @@ nav:
       - "Making Blacksmith Hammers": uncategorized/making-blacksmith-hammers.md
       - "MultiCam projects": uncategorized/multicam-projects.md
       - "Porter Cable Table Router": uncategorized/porter-cable-table-router.md
-      - "Printmaking Committee Meeting 20190729": uncategorized/printmaking-committee-meeting-20190729.md
       - "QR Codes": uncategorized/qr-codes.md
       - "Resin SIG Meetings": uncategorized/resin-sig-meetings.md
       - "Resin SIG/Equipment101": uncategorized/resin-sig-equipment101.md
@@ -1925,10 +2059,44 @@ nav:
       - "TabletopGaming Meeting Minutes 8/21/19": uncategorized/tabletopgaming-meeting-minutes-8-21-19.md
       - "Using EventBrite for DMS Classes": uncategorized/using-eventbrite-for-dms-classes.md
       - "VCarve Pro 11": uncategorized/vcarve-pro-11.md
-      - "Vector Committee Meeting Minutes 20191107": uncategorized/vector-committee-meeting-minutes-20191107.md
-      - "VECTOR Committee Reports 2020-10-26": uncategorized/vector-committee-reports-2020-10-26.md
-      - "VECTOR Committee Reports 2020-11-23": uncategorized/vector-committee-reports-2020-11-23.md
-      - "VECTOR Committee Reports 2021-02-11": uncategorized/vector-committee-reports-2021-02-11.md
-      - "VECTOR Committee Reports 2021-04-12": uncategorized/vector-committee-reports-2021-04-12.md
-      - "VECTOR Committee Reports 2021-10-18": uncategorized/vector-committee-reports-2021-10-18.md
-      - "VECTOR Committee Reports 2022-04-11": uncategorized/vector-committee-reports-2022-04-11.md
+      - "Meeting Minutes":
+        - "2023":
+          - "Jewelry Committee Meeting 20230613": uncategorized/jewelry-committee-meeting-20230613.md
+        - "2022":
+          - "Jewelry Committee Meeting 20220510": uncategorized/jewelry-committee-meeting-20220510.md
+          - "Jewelry Committee Meeting 20220614": uncategorized/jewelry-committee-meeting-20220614.md
+          - "Jewelry Committee Meeting 20220712": uncategorized/jewelry-committee-meeting-20220712.md
+          - "Jewelry Committee Meeting 20220809": uncategorized/jewelry-committee-meeting-20220809.md
+          - "VECTOR Committee Reports 2022-04-11": uncategorized/vector-committee-reports-2022-04-11.md
+        - "2021":
+          - "Ceramics Committee Meeting 20211207": uncategorized/ceramics-committee-meeting-20211207.md
+          - "Jewelry Committee Meeting 20210413": uncategorized/jewelry-committee-meeting-20210413.md
+          - "Jewelry Committee Meeting 20210713": uncategorized/jewelry-committee-meeting-20210713.md
+          - "VECTOR Committee Reports 2021-02-11": uncategorized/vector-committee-reports-2021-02-11.md
+          - "VECTOR Committee Reports 2021-04-12": uncategorized/vector-committee-reports-2021-04-12.md
+          - "VECTOR Committee Reports 2021-10-18": uncategorized/vector-committee-reports-2021-10-18.md
+        - "2020":
+          - "3D Fabrication Meeting 20200104": uncategorized/3d-fabrication-meeting-20200104.md
+          - "CA Sewing SIG Meeting 2020-02-04": uncategorized/ca-sewing-sig-meeting-2020-02-04.md
+          - "Computer Committee Meeting 20200629": uncategorized/computer-committee-meeting-20200629.md
+          - "Digital Media Committee Meeting 20200728": uncategorized/digital-media-committee-meeting-20200728.md
+          - "GlassWorks 20202712": uncategorized/glassworks-20202712.md
+          - "Jewelry Committee Meeting 20200209": uncategorized/jewelry-committee-meeting-20200209.md
+          - "Jewelry Committee Meeting 20201013": uncategorized/jewelry-committee-meeting-20201013.md
+          - "JSM Committee Meeting 20200811": uncategorized/jsm-committee-meeting-20200811.md
+          - "JSM Committee Meeting 20200908": uncategorized/jsm-committee-meeting-20200908.md
+          - "VECTOR Committee Reports 2020-10-26": uncategorized/vector-committee-reports-2020-10-26.md
+          - "VECTOR Committee Reports 2020-11-23": uncategorized/vector-committee-reports-2020-11-23.md
+        - "2019":
+          - "3D Fabrication Meeting 20190504": uncategorized/3d-fabrication-meeting-20190504.md
+          - "3D Fabrication Meeting 20190601": uncategorized/3d-fabrication-meeting-20190601.md
+          - "3D Fabrication Meeting 20190615": uncategorized/3d-fabrication-meeting-20190615.md
+          - "3D Fabrication Meeting 20191102": uncategorized/3d-fabrication-meeting-20191102.md
+          - "Board of Directors Meeting 20190511 Special Meeting": uncategorized/board-of-directors-meeting-20190511-special-meeting.md
+          - "Board of Directors Meeting 20190520 Special Meeting": uncategorized/board-of-directors-meeting-20190520-special-meeting.md
+          - "Editing Board of Directors Meeting 20190510 Special Meeting": uncategorized/editing-board-of-directors-meeting-20190510-special-meeting.md
+          - "Electronics Committee Meeting 20190711": uncategorized/electronics-committee-meeting-20190711.md
+          - "JSM Committee Meeting 20191008": uncategorized/jsm-committee-meeting-20191008.md
+          - "JSM Committee Metting 20191029": uncategorized/jsm-committee-metting-20191029.md
+          - "Printmaking Committee Meeting 20190729": uncategorized/printmaking-committee-meeting-20190729.md
+          - "Vector Committee Meeting Minutes 20191107": uncategorized/vector-committee-meeting-minutes-20191107.md

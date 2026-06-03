@@ -358,6 +358,9 @@ GOV_CATS = {"dallas-makerspace", "dms-official", "board-of-directors",
             "officers", "financial", "public-relations", "logistics", "secretary"}
 MONTHS = ["january", "february", "march", "april", "may", "june", "july",
           "august", "september", "october", "november", "december"]
+# A page title is a dated meeting/minutes record if it contains a YYYYMMDD or
+# YYYY-MM-DD style date (e.g. "Creative Arts Committee Meeting 20200121").
+MINUTES_DATE_RE = re.compile(r"(?:19|20)\d{2}[-/.]?\d{2}[-/.]?\d{2}")
 MEETING_SUBGROUP_ORDER = [
     "Board & Committee Meetings", "Meetings by Year",
     "Meetings by Month", "Statements of Intent",
@@ -428,6 +431,46 @@ def write_mkdocs_yml(entries: list[dict]) -> None:
         node["label"] = e["category"]
         node["pages"].append((e["page_label"], e["path"]))
 
+    def emit_pages(pages, indent):
+        """Emit a category's pages: plain articles directly, dated meeting
+        minutes collapsed under a year-grouped 'Meeting Minutes' node."""
+        content, minutes = [], []
+        for plabel, path in pages:
+            m = MINUTES_DATE_RE.search(plabel)
+            (minutes if m else content).append(
+                (plabel, path, m.group()[:4] if m else None))
+        out = []
+        for plabel, path, _ in sorted(content, key=lambda p: p[0].lower()):
+            out.append(f'{" " * indent}- "{esc(plabel)}": {path}')
+        if not minutes:
+            return out
+
+        years = sorted({y for _, _, y in minutes}, reverse=True)
+
+        def emit_years(ind):
+            o = []
+            for yr in years:
+                o.append(f'{" " * ind}- "{yr}":')
+                rows = sorted([(l, p) for l, p, y in minutes if y == yr],
+                              key=lambda r: r[0].lower())
+                for l, p in rows:
+                    o.append(f'{" " * (ind + 2)}- "{esc(l)}": {p}')
+            return o
+
+        if content:
+            # Mixed category: keep articles up top, tuck minutes behind a node.
+            out.append(f'{" " * indent}- "Meeting Minutes":')
+            out += emit_years(indent + 2)
+        elif len(years) > 1:
+            # Pure-minutes category spanning years: group by year directly.
+            out += emit_years(indent)
+        else:
+            # Pure-minutes, single year (e.g. "2010 Meetings"): flat list.
+            for l, p in sorted([(l, p) for l, p, _ in minutes],
+                               key=lambda r: r[0].lower()):
+                out.append(f'{" " * indent}- "{esc(l)}": {p}')
+        return out
+
     def emit_categories(slug_map, sub, indent):
         lines = []
         order = sorted(slug_map, key=lambda s: category_sort_key(
@@ -435,8 +478,7 @@ def write_mkdocs_yml(entries: list[dict]) -> None:
         for slug in order:
             node = slug_map[slug]
             lines.append(f'{" " * indent}- "{esc(node["label"])}":')
-            for plabel, path in sorted(node["pages"], key=lambda p: p[0].lower()):
-                lines.append(f'{" " * (indent + 2)}- "{esc(plabel)}": {path}')
+            lines += emit_pages(node["pages"], indent + 2)
         return lines
 
     lines = ["nav:", "  - Home: index.md"]
