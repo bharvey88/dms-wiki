@@ -358,9 +358,31 @@ GOV_CATS = {"dallas-makerspace", "dms-official", "board-of-directors",
             "officers", "financial", "public-relations", "logistics", "secretary"}
 MONTHS = ["january", "february", "march", "april", "may", "june", "july",
           "august", "september", "october", "november", "december"]
-# A page title is a dated meeting/minutes record if it contains a YYYYMMDD or
-# YYYY-MM-DD style date (e.g. "Creative Arts Committee Meeting 20200121").
-MINUTES_DATE_RE = re.compile(r"(?:19|20)\d{2}[-/.]?\d{2}[-/.]?\d{2}")
+# DMS typed meeting dates a dozen ways. meeting_year() extracts the 4-digit
+# year from a title in any of them, or returns None if the title carries no
+# date (a plain article). Used to fold dated minutes under a year-grouped node.
+_MONTH_RE = r"(?:jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)"
+_DATE_PATTERNS = [
+    # (regex, group index for the 4-digit year)
+    (re.compile(r"\b(?:19|20)\d{4,}\b"), 0),                                  # YYYYMMDD / YYYYMM / typo'd long runs
+    (re.compile(r"\b\d{4}((?:19|20)\d{2})\b"), 1),                            # MMDDYYYY
+    (re.compile(r"\b(?:19|20)\d{2}[-/.\s]\d{1,2}[-/.\s]\d{1,2}\b"), 0),       # YYYY-M-D (any sep incl. space)
+    (re.compile(r"\b\d{1,2}[-/.\s]\d{1,2}[-/.\s]((?:19|20)\d{2})\b"), 1),     # M-D-YYYY
+    (re.compile(r"\b(?:19|20)\d{2}\s+" + _MONTH_RE, re.I), 0),                # YYYY Monthname
+    (re.compile(_MONTH_RE + r"[a-z]*\.?\s+\d{0,2},?\s*((?:19|20)\d{2})\b", re.I), 1),  # Monthname ... YYYY
+    (re.compile(r"\b\d{1,2}[-/.]\d{1,2}[-/.](\d{2})\b"), "yy"),               # M-D-YY (2-digit year)
+]
+
+
+def meeting_year(title: str) -> str | None:
+    for pat, grp in _DATE_PATTERNS:
+        m = pat.search(title)
+        if not m:
+            continue
+        if grp == "yy":
+            return "20" + m.group(1)
+        return m.group(grp)[:4] if grp == 0 else m.group(grp)
+    return None
 MEETING_SUBGROUP_ORDER = [
     "Board & Committee Meetings", "Meetings by Year",
     "Meetings by Month", "Statements of Intent",
@@ -436,9 +458,8 @@ def write_mkdocs_yml(entries: list[dict]) -> None:
         minutes collapsed under a year-grouped 'Meeting Minutes' node."""
         content, minutes = [], []
         for plabel, path in pages:
-            m = MINUTES_DATE_RE.search(plabel)
-            (minutes if m else content).append(
-                (plabel, path, m.group()[:4] if m else None))
+            yr = meeting_year(plabel)
+            (minutes if yr else content).append((plabel, path, yr))
         out = []
         for plabel, path, _ in sorted(content, key=lambda p: p[0].lower()):
             out.append(f'{" " * indent}- "{esc(plabel)}": {path}')
