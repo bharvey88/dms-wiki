@@ -358,35 +358,93 @@ GOV_CATS = {"dallas-makerspace", "dms-official", "board-of-directors",
             "officers", "financial", "public-relations", "logistics", "secretary"}
 MONTHS = ["january", "february", "march", "april", "may", "june", "july",
           "august", "september", "october", "november", "december"]
-# DMS typed meeting dates a dozen ways. meeting_year() extracts the 4-digit
-# year from a title in any of them, or returns None if the title carries no
-# date (a plain article). Used to fold dated minutes under a year-grouped node.
+# DMS typed meeting dates a dozen ways. meeting_date() extracts (year, month)
+# from a title in any of them; meeting_year() returns just the year (or None for
+# a plain, undated article). Used to fold dated minutes under year/month nodes.
+MONTH_NAMES = ["", "January", "February", "March", "April", "May", "June",
+               "July", "August", "September", "October", "November", "December"]
 _MONTH_RE = r"(?:jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)"
-_DATE_PATTERNS = [
-    # (regex, group index for the 4-digit year)
-    (re.compile(r"\b(?:19|20)\d{4,}\b"), 0),                                  # YYYYMMDD / YYYYMM / typo'd long runs
-    (re.compile(r"\b\d{4}((?:19|20)\d{2})\b"), 1),                            # MMDDYYYY
-    (re.compile(r"\b(?:19|20)\d{2}[-/.\s]\d{1,2}[-/.\s]\d{1,2}\b"), 0),       # YYYY-M-D (any sep incl. space)
-    (re.compile(r"\b\d{1,2}[-/.\s]\d{1,2}[-/.\s]((?:19|20)\d{2})\b"), 1),     # M-D-YYYY
-    (re.compile(r"\b(?:19|20)\d{2}\s+" + _MONTH_RE, re.I), 0),                # YYYY Monthname
-    (re.compile(_MONTH_RE + r"[a-z]*\.?\s+\d{0,2},?\s*((?:19|20)\d{2})\b", re.I), 1),  # Monthname ... YYYY
-    (re.compile(r"\b\d{1,2}[-/.]\d{1,2}[-/.](\d{2})\b"), "yy"),               # M-D-YY (2-digit year)
-]
+_MONTH_NUM = {m[:3].lower(): i for i, m in enumerate(MONTH_NAMES) if m}
+# A single year's minutes are sub-grouped by month once they exceed this count.
+MONTH_NEST_THRESHOLD = 14
 
 
-def meeting_year(title: str) -> str | None:
-    for pat, grp in _DATE_PATTERNS:
-        m = pat.search(title)
-        if not m:
-            continue
-        if grp == "yy":
-            return "20" + m.group(1)
-        return m.group(grp)[:4] if grp == 0 else m.group(grp)
-    return None
-MEETING_SUBGROUP_ORDER = [
-    "Board & Committee Meetings", "Meetings by Year",
-    "Meetings by Month", "Statements of Intent",
-]
+def meeting_date(title: str):
+    """Return (year, month): year is a 4-char string or None; month is 1-12
+    or None. Tries the many date spellings found in the DMS wiki."""
+    t, tl = title, title.lower()
+    m = re.search(r"\b((?:19|20)\d{2})(\d{2})(\d{2})\b", t)          # YYYYMMDD
+    if m:
+        return m.group(1), int(m.group(2))
+    m = re.search(r"\b((?:19|20)\d{2})[-/.\s](\d{1,2})[-/.\s]\d{1,2}\b", t)  # YYYY-M-D
+    if m:
+        return m.group(1), int(m.group(2))
+    m = re.search(r"\b(\d{1,2})[-/.\s]\d{1,2}[-/.\s]((?:19|20)\d{2})\b", t)  # M-D-YYYY
+    if m:
+        return m.group(2), int(m.group(1))
+    m = re.search(r"\b(\d{2})\d{2}((?:19|20)\d{2})\b", t)            # MMDDYYYY
+    if m:
+        return m.group(2), int(m.group(1))
+    m = re.search(r"\b((?:19|20)\d{2})\s+(" + _MONTH_RE + r")", tl)  # YYYY Monthname
+    if m:
+        return m.group(1), _MONTH_NUM[m.group(2)]
+    m = re.search(r"\b(" + _MONTH_RE + r")[a-z]*\.?\s+\d{0,2},?\s*((?:19|20)\d{2})\b", tl)  # Monthname YYYY
+    if m:
+        return m.group(2), _MONTH_NUM[m.group(1)]
+    m = re.search(r"\b(\d{1,2})[-/.](\d{1,2})[-/.](\d{2})\b", t)     # M-D-YY
+    if m:
+        return "20" + m.group(3), int(m.group(1))
+    m = re.search(r"\b((?:19|20)\d{4,})\b", t)                       # typo'd long run -> year only
+    if m:
+        return m.group(1)[:4], None
+    return None, None
+
+
+def meeting_year(title: str):
+    return meeting_date(title)[0]
+
+
+# Sub-sections that break the large "Areas & Committees" tab into themes.
+AREA_SUBGROUPS = {
+    "machine-shop": "Shops & Fabrication", "metal-shop": "Shops & Fabrication",
+    "small-metals": "Shops & Fabrication", "wood-shop": "Shops & Fabrication",
+    "woodshop": "Shops & Fabrication", "3d-fabrication": "Shops & Fabrication",
+    "fabrication": "Shops & Fabrication", "laser": "Shops & Fabrication",
+    "plastics": "Shops & Fabrication", "colchester-lathe": "Shops & Fabrication",
+    "makery-stores": "Shops & Fabrication",
+    "creative-arts": "Arts & Crafts", "glassworks": "Arts & Crafts",
+    "jewelry": "Arts & Crafts", "jewelry-small-metals-committee": "Arts & Crafts",
+    "printmaking": "Arts & Crafts", "ceramics": "Arts & Crafts",
+    "blacksmithing": "Arts & Crafts", "dye-sublimation": "Arts & Crafts",
+    "marbling-workshops": "Arts & Crafts",
+    "digital-media": "Media & A/V", "av-studio": "Media & A/V",
+    "photography": "Media & A/V", "vector": "Media & A/V",
+    "electronics": "Technology & Computing", "software": "Technology & Computing",
+    "software-development": "Technology & Computing", "programming": "Technology & Computing",
+    "embedded-systems": "Technology & Computing", "hacking": "Technology & Computing",
+    "infosec": "Technology & Computing", "crypto-sig": "Technology & Computing",
+    "civic-hacking": "Technology & Computing", "computer-committee": "Technology & Computing",
+    "hackerspace-committee": "Technology & Computing", "codetalk": "Technology & Computing",
+    "fusion-360": "Technology & Computing", "vcc": "Technology & Computing",
+    "vcc-inventory": "Technology & Computing", "amateur-radio": "Technology & Computing",
+    "aerospace": "Vehicles & Aerospace", "automotive": "Vehicles & Aerospace",
+    "motorsports-committee": "Vehicles & Aerospace", "remote-control": "Vehicles & Aerospace",
+    "science": "Science & Education", "atomic-energy": "Science & Education",
+    "stem": "Science & Education", "museum": "Science & Education",
+    "edibles": "Science & Education", "food": "Science & Education",
+    "tabletop-gaming": "Games", "gaming": "Games", "games": "Games", "pinball": "Games",
+}
+AREA_DEFAULT_SUB = "Other Committees & Groups"
+
+# Display order of sub-sections within each group.
+SUBGROUP_ORDER = {
+    "Meeting Minutes": ["Board & Committee Meetings", "Meetings by Year",
+                        "Meetings by Month", "Statements of Intent"],
+    "Areas & Committees": [
+        "Shops & Fabrication", "Arts & Crafts", "Media & A/V",
+        "Technology & Computing", "Vehicles & Aerospace", "Science & Education",
+        "Games", AREA_DEFAULT_SUB],
+}
 
 
 def group_for(slug: str) -> str:
@@ -408,6 +466,8 @@ def group_for(slug: str) -> str:
 
 
 def subgroup_for(group: str, slug: str) -> str | None:
+    if group == "Areas & Committees":
+        return AREA_SUBGROUPS.get(slug, AREA_DEFAULT_SUB)
     if group != "Meeting Minutes":
         return None
     if "statements-of-intent" in slug:
@@ -455,27 +515,47 @@ def write_mkdocs_yml(entries: list[dict]) -> None:
 
     def emit_pages(pages, indent):
         """Emit a category's pages: plain articles directly, dated meeting
-        minutes collapsed under a year-grouped 'Meeting Minutes' node."""
+        minutes collapsed under a year-grouped 'Meeting Minutes' node. A single
+        year with many minutes is further split by month."""
         content, minutes = [], []
         for plabel, path in pages:
-            yr = meeting_year(plabel)
-            (minutes if yr else content).append((plabel, path, yr))
+            yr, mo = meeting_date(plabel)
+            if yr:
+                minutes.append((plabel, path, yr, mo))
+            else:
+                content.append((plabel, path))
         out = []
-        for plabel, path, _ in sorted(content, key=lambda p: p[0].lower()):
+        for plabel, path in sorted(content, key=lambda p: p[0].lower()):
             out.append(f'{" " * indent}- "{esc(plabel)}": {path}')
         if not minutes:
             return out
 
-        years = sorted({y for _, _, y in minutes}, reverse=True)
+        byyear = collections.defaultdict(list)
+        for plabel, path, yr, mo in minutes:
+            byyear[yr].append((plabel, path, mo))
+        years = sorted(byyear, reverse=True)
+
+        def emit_year_items(items, ind):
+            """items: [(label, path, month)] for one year."""
+            if len(items) > MONTH_NEST_THRESHOLD:
+                bymonth = collections.defaultdict(list)
+                for l, p, mo in items:
+                    bymonth[mo if (mo and 1 <= mo <= 12) else 0].append((l, p))
+                o = []
+                for mo in sorted(bymonth, key=lambda x: (x == 0, x)):
+                    name = MONTH_NAMES[mo] if mo else "Undated"
+                    o.append(f'{" " * ind}- "{name}":')
+                    for l, p in sorted(bymonth[mo], key=lambda r: r[0].lower()):
+                        o.append(f'{" " * (ind + 2)}- "{esc(l)}": {p}')
+                return o
+            return [f'{" " * ind}- "{esc(l)}": {p}' for l, p in
+                    sorted([(l, p) for l, p, _ in items], key=lambda r: r[0].lower())]
 
         def emit_years(ind):
             o = []
             for yr in years:
                 o.append(f'{" " * ind}- "{yr}":')
-                rows = sorted([(l, p) for l, p, y in minutes if y == yr],
-                              key=lambda r: r[0].lower())
-                for l, p in rows:
-                    o.append(f'{" " * (ind + 2)}- "{esc(l)}": {p}')
+                o += emit_year_items(byyear[yr], ind + 2)
             return o
 
         if content:
@@ -486,10 +566,8 @@ def write_mkdocs_yml(entries: list[dict]) -> None:
             # Pure-minutes category spanning years: group by year directly.
             out += emit_years(indent)
         else:
-            # Pure-minutes, single year (e.g. "2010 Meetings"): flat list.
-            for l, p in sorted([(l, p) for l, p, _ in minutes],
-                               key=lambda r: r[0].lower()):
-                out.append(f'{" " * indent}- "{esc(l)}": {p}')
+            # Pure-minutes single year (e.g. "2010 Meetings"): months or flat.
+            out += emit_year_items(byyear[years[0]], indent)
         return out
 
     def emit_categories(slug_map, sub, indent):
@@ -511,7 +589,8 @@ def write_mkdocs_yml(entries: list[dict]) -> None:
         if list(subs) == [None]:
             lines += emit_categories(subs[None], None, 4)
         else:
-            ordered = [s for s in MEETING_SUBGROUP_ORDER if s in subs]
+            pref = SUBGROUP_ORDER.get(group, [])
+            ordered = [s for s in pref if s in subs]
             ordered += [s for s in sorted(filter(None, subs)) if s not in ordered]
             for sub in ordered:
                 lines.append(f'    - "{esc(sub)}":')
