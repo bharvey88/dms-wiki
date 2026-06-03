@@ -14,6 +14,8 @@ from __future__ import annotations
 
 import argparse
 import collections
+import glob
+import json
 import os
 import re
 import shutil
@@ -35,6 +37,9 @@ DOCS = os.path.join(ROOT, "docs")
 BASE_YML = os.path.join(HERE, "mkdocs.base.yml")
 OUT_YML = os.path.join(ROOT, "mkdocs.yml")
 EXTRA_CSS_SRC = os.path.join(HERE, "extra.css")
+# slug -> pretty category label, persisted so the nav can be regenerated
+# (`--nav-only`) without re-scraping the wiki.
+CATEGORY_LABELS_JSON = os.path.join(HERE, "category_labels.json")
 
 # MkDocs reserves the "templates" directory name (it is excluded from the
 # build), so any wiki category that slugifies to a reserved name is suffixed.
@@ -312,35 +317,180 @@ def write_index(title_to_path: dict, page_count: int, category_count: int) -> No
     out += [
         "## Browse everything",
         "",
-        "Use the **Wiki** tab in the top navigation to browse all "
-        f"{category_count} categories, or search from the box above.",
+        "Use the tabs in the top navigation (Areas & Committees, Tools, "
+        "Classes, Projects, Events, Governance, Meeting Minutes, Archive) "
+        "to browse by topic, or search from the box above.",
         "",
     ]
     with open(os.path.join(DOCS, "index.md"), "w", encoding="utf-8") as f:
         f.write("\n".join(out))
 
 
-def write_mkdocs_yml(records: list[dict]) -> None:
+# --- Navigation taxonomy -----------------------------------------------------
+# 176 wiki categories are too many for a flat sidebar, so each category (by its
+# folder slug) is assigned to one of these themed top-level groups (tabs).
+
+GROUP_ORDER = [
+    "Areas & Committees",   # default bucket: shops, SIGs, committees
+    "Tools & Equipment",
+    "Classes",
+    "Projects",
+    "Events",
+    "Governance",
+    "Meeting Minutes",
+    "Archive",
+]
+ARCHIVE_CATS = {
+    "uncategorized", "outdated", "historical", "archive", "delete", "cleanup",
+    "draft", "templates-category", "pages-with-broken-file-links",
+    "pages-with-ignored-display-titles",
+}
+EVENT_CATS = {"annual-events", "completed-events", "big-move-2014",
+              "hackathons", "flyers", "food-for-thought"}
+CLASS_CATS = {"classes", "class", "class-curriculum", "classroom", "education",
+              "teaching", "skillshare", "certifications", "faq", "how-to"}
+TOOL_CATS = {"tools", "equipment", "manuals", "infrastructure",
+             "systems-and-infrastructure", "suppliers", "computers",
+             "parts-files", "standards", "voipserver", "cloud-computing",
+             "community-grid", "digital-media-equipment",
+             "software-development-equipment", "hardware"}
+GOV_CATS = {"dallas-makerspace", "dms-official", "board-of-directors",
+            "officers", "financial", "public-relations", "logistics", "secretary"}
+MONTHS = ["january", "february", "march", "april", "may", "june", "july",
+          "august", "september", "october", "november", "december"]
+MEETING_SUBGROUP_ORDER = [
+    "Board & Committee Meetings", "Meetings by Year",
+    "Meetings by Month", "Statements of Intent",
+]
+
+
+def group_for(slug: str) -> str:
+    if slug in ARCHIVE_CATS:
+        return "Archive"
+    if "meeting" in slug or "statements-of-intent" in slug:
+        return "Meeting Minutes"
+    if "project" in slug:
+        return "Projects"
+    if slug in EVENT_CATS or "event" in slug:
+        return "Events"
+    if slug in CLASS_CATS:
+        return "Classes"
+    if slug in TOOL_CATS:
+        return "Tools & Equipment"
+    if slug in GOV_CATS:
+        return "Governance"
+    return "Areas & Committees"
+
+
+def subgroup_for(group: str, slug: str) -> str | None:
+    if group != "Meeting Minutes":
+        return None
+    if "statements-of-intent" in slug:
+        return "Statements of Intent"
+    if re.match(r"^\d{4}-meetings$", slug):
+        return "Meetings by Year"
+    if re.match(r"^(" + "|".join(MONTHS) + r")-meetings$", slug):
+        return "Meetings by Month"
+    return "Board & Committee Meetings"
+
+
+def category_sort_key(subgroup: str | None, slug: str, label: str):
+    """Order categories within a (sub)group: years descending, months by
+    calendar, everything else alphabetically."""
+    if subgroup == "Meetings by Year":
+        m = re.match(r"^(\d{4})", slug)
+        return (0, -int(m.group(1)) if m else 0, label.lower())
+    if subgroup == "Meetings by Month":
+        month = slug.split("-")[0]
+        return (0, MONTHS.index(month) if month in MONTHS else 99, label.lower())
+    return (0, 0, label.lower())
+
+
+def write_mkdocs_yml(entries: list[dict]) -> None:
+    """Build mkdocs.yml = base config + grouped nav.
+
+    entries: list of {slug, category, page_label, path}.
+    """
     with open(BASE_YML, encoding="utf-8") as f:
         base = f.read().rstrip() + "\n\n"
 
-    by_cat: dict[str, list[dict]] = collections.defaultdict(list)
-    for rec in records:
-        by_cat[rec["category"]].append(rec)
-
-    def esc(s: str) -> str:
+    def esc(s):
         return s.replace('"', '\\"')
 
-    lines = ["nav:", '  - Home: index.md', "  - Wiki:"]
-    for category in sorted(by_cat, key=lambda c: convert.pretty_label(c).lower()):
-        lines.append(f'    - "{esc(convert.pretty_label(category))}":')
-        for rec in sorted(by_cat[category], key=lambda r: r["title"].lower()):
-            label = esc(convert.pretty_label(rec["title"]))
-            lines.append(f'      - "{label}": {rec["path"]}')
+    # tree: group -> subgroup(None|str) -> slug -> {"label", "pages": [(label,path)]}
+    tree: dict = collections.defaultdict(
+        lambda: collections.defaultdict(lambda: collections.defaultdict(
+            lambda: {"label": "", "pages": []})))
+    for e in entries:
+        group = group_for(e["slug"])
+        sub = subgroup_for(group, e["slug"])
+        node = tree[group][sub][e["slug"]]
+        node["label"] = e["category"]
+        node["pages"].append((e["page_label"], e["path"]))
+
+    def emit_categories(slug_map, sub, indent):
+        lines = []
+        order = sorted(slug_map, key=lambda s: category_sort_key(
+            sub, s, slug_map[s]["label"]))
+        for slug in order:
+            node = slug_map[slug]
+            lines.append(f'{" " * indent}- "{esc(node["label"])}":')
+            for plabel, path in sorted(node["pages"], key=lambda p: p[0].lower()):
+                lines.append(f'{" " * (indent + 2)}- "{esc(plabel)}": {path}')
+        return lines
+
+    lines = ["nav:", "  - Home: index.md"]
+    for group in GROUP_ORDER:
+        if group not in tree:
+            continue
+        lines.append(f'  - "{group}":')
+        subs = tree[group]
+        if list(subs) == [None]:
+            lines += emit_categories(subs[None], None, 4)
+        else:
+            ordered = [s for s in MEETING_SUBGROUP_ORDER if s in subs]
+            ordered += [s for s in sorted(filter(None, subs)) if s not in ordered]
+            for sub in ordered:
+                lines.append(f'    - "{esc(sub)}":')
+                lines += emit_categories(subs[sub], sub, 6)
 
     with open(OUT_YML, "w", encoding="utf-8") as f:
         f.write(base)
         f.write("\n".join(lines) + "\n")
+
+
+def entries_from_records(records: list[dict]) -> list[dict]:
+    return [{
+        "slug": rec["path"].split("/")[0],
+        "category": convert.pretty_label(rec["category"]),
+        "page_label": convert.pretty_label(rec["title"]),
+        "path": rec["path"],
+    } for rec in records]
+
+
+def entries_from_disk() -> list[dict]:
+    """Reconstruct nav entries from the generated docs/ tree (no scrape).
+
+    Page labels come from each file's H1; category labels come from the
+    persisted slug->label map (falling back to a prettified slug)."""
+    labels = {}
+    if os.path.exists(CATEGORY_LABELS_JSON):
+        with open(CATEGORY_LABELS_JSON, encoding="utf-8") as f:
+            labels = json.load(f)
+    entries = []
+    for md in glob.glob(os.path.join(DOCS, "*", "*.md")):
+        slug = os.path.basename(os.path.dirname(md))
+        rel = os.path.relpath(md, DOCS).replace(os.sep, "/")
+        with open(md, encoding="utf-8") as f:
+            first = f.readline().strip()
+        page_label = first[2:].strip() if first.startswith("# ") else slug
+        entries.append({
+            "slug": slug,
+            "category": labels.get(slug, slug.replace("-", " ").title()),
+            "page_label": page_label,
+            "path": rel,
+        })
+    return entries
 
 
 def main() -> int:
@@ -349,7 +499,19 @@ def main() -> int:
                     help="Only convert the first N articles (for spot-checking).")
     ap.add_argument("--delay", type=float, default=0.05,
                     help="Seconds to sleep between page fetches.")
+    ap.add_argument("--nav-only", action="store_true",
+                    help="Regenerate mkdocs.yml nav from the existing docs/ "
+                         "tree without re-scraping the wiki.")
     args = ap.parse_args()
+
+    if args.nav_only:
+        entries = entries_from_disk()
+        write_mkdocs_yml(entries)
+        groups = {group_for(e["slug"]) for e in entries}
+        print(f"Rebuilt nav: {len(entries)} pages across "
+              f"{len({e['slug'] for e in entries})} categories in "
+              f"{len(groups)} groups.", flush=True)
+        return 0
 
     session = make_session()
     print("Enumerating articles...", flush=True)
@@ -383,7 +545,11 @@ def main() -> int:
     write_index(title_to_path, len(records), cats)
     os.makedirs(os.path.join(DOCS, "stylesheets"), exist_ok=True)
     shutil.copy2(EXTRA_CSS_SRC, os.path.join(DOCS, "stylesheets", "extra.css"))
-    write_mkdocs_yml(records)
+    entries = entries_from_records(records)
+    with open(CATEGORY_LABELS_JSON, "w", encoding="utf-8") as f:
+        json.dump({e["slug"]: e["category"] for e in entries}, f,
+                  indent=2, sort_keys=True)
+    write_mkdocs_yml(entries)
 
     print(f"Done: {len(records)} pages across {cats} categories.", flush=True)
     return 0

@@ -35,4 +35,4 @@ This mirror contains **1675 articles** across **177 categories**. Press `/` to s
 
 ## Browse everything
 
-Use the **Wiki** tab in the top navigation to browse all 177 categories, or search from the box above.
+Use the tabs in the top navigation (Areas & Committees, Tools, Classes, Projects, Events, Governance, Meeting Minutes, Archive) to browse by topic, or search from the box above.
